@@ -105,7 +105,7 @@ export default function Home() {
                 <a href="/personal-loans">
                   <div className="pb-product inactive">
                     <h1 className="product-name">Personal Loan</h1>
-                    <p className="product-desc">Select the best offer curated just for you from a wide choice of Banks &amp; NBFC's</p>
+                    <p className="product-desc">Select the best offer curated just for you from a wide choice of Banks &amp; NBFC&apos;s</p>
                     <span className="m-hidden bestTag">Check Eligibility <span><Image width={12} height={10} src="/img/blue-right-arrow.svg" alt="blue arrow" /></span></span>
                     <div className="product-icon">
                       <svg width="60" height="60" shapeRendering="geometricPrecision">
