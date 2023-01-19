@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <main className="main">
-        <div className="homebanner">
+        <section className="homebanner">
           <Carousel>
             <Carousel.Item>
               <div className="itemImg">
@@ -74,8 +74,8 @@ export default function Home() {
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
-        </div>
-        <div className="products-section">
+        </section>
+        <section className="products-section">
           <div className="container">
             <div className="section-title mb16 m-hidden">
               <h3>Credit Products</h3>
@@ -425,7 +425,7 @@ export default function Home() {
               </div>
               <div className="col-3 col-md-4 col-lg-3 col-xl-3 ord-18 m-hidden">
                 <a href="/direct-mutual-funds">
-                    <div className="pb-product active">
+                    <div className="pb-product inactive">
                         <h1 className="product-name">Direct Mutual Funds</h1>
                         <p className="product-desc">Get higher returns on your Mutual Fund investments</p>
                         <span className="m-hidden bestTag">Check Your Investment<span><Image width={12} height={10} src="/img/blue-right-arrow.svg" alt="blue arrow"/></span></span>
@@ -447,7 +447,57 @@ export default function Home() {
             </div>
             </div>
           </div>
-        </div>
+        </section>
+        <section className="pb-feature-section">
+          <div className="container">
+              <div className="row" id="contentAboutHomes">
+                  <div className="col-md-5">
+                      <div className="pb-feature">
+                          <span className="top-line"></span>
+                          <h3>How to apply?</h3>
+                      </div>
+                      <div className="row">
+                          <div className="col-sm-6">
+                              <div className="pb-feature">
+                                  <Image src="/img/ammount.jpg" width={150} height={150} alt="credible" />
+                                  <h3>Choose Amount</h3>
+                              </div>
+                          </div>
+                          <div className="col-sm-6">
+                              <div className="pb-feature">
+                                  <Image src="/img/document.jpg" width={150} height={150} alt="trustworthy" />
+                                  <h3>Provide Document</h3>
+                              </div>
+                          </div>
+                          <div className="col-sm-6">
+                              <div className="pb-feature">
+                                  <Image src="/img/approved.jpg" width={150} height={150} alt="secure" />
+                                  <h3>Approved Loan</h3>
+                              </div>
+                          </div>
+                          <div className="col-sm-6">
+                              <div className="pb-feature">
+                                  <Image src="/img/getcass.jpg" width={150} height={150} alt="helpful" />
+                                  <h3>Get your money</h3>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div className="col-md-7">
+                    <div className="row">
+                      <div className="col-md-6 col-lg-5 offset-lg-1">
+                        <div className="about-us-block about-us-bg">
+                          <div className="about-us-img-wrap"><Image src="/img/aboutmore.jpg"  width={442} height={300} alt="about_us_Illustration" /></div>
+                          <h3>About Us</h3>
+                          <p>We have partnerships with large banks, NBFCs and fintech lenders who offer a wide choice of products on our platform</p>
+                          <a href="/about-us" data-ga-label="highlightAboutPaisabazaar" className="know-more-btn">Know More</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+          </div>
+        </section>
         <section className="our-partners-section product_pad1">
           <div className="container">
             <div className="pb-feature">

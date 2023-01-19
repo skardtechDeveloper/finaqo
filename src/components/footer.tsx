@@ -76,11 +76,9 @@ const Footer = () => {
                         <p>Copyright © 2023 Finaqo | All Rights Reserved.</p>
                     </div>
                     <div className="col-md-3 pb-social-links">
-                        <Link target="_blank" rel="nofollow noopener" href="https://www.facebook.com/" passHref><Image src="/img/footer/facebook.svg" width={24} height={24} alt="facebook"/></Link>
-                        <Link target="_blank" rel="nofollow noopener" href="https://in.linkedin.com/" passHref><Image src="/img/footer/linkedin.svg" width={24} height={24} alt="linkedin"/></Link>
-                        <Link target="_blank" rel="nofollow noopener" href="https://twitter.com/" passHref><Image src="/img/footer/twitter.svg" width={24} height={24}  alt="twitter"/></Link>
-                        {/* <Link target="_blank" rel="nofollow noopener" href="https://www.youtube.com/" passHref><Image src="/img/footer/youtube.svg" width={24} height={24}  alt="youtube"/></Link>
-                        <Link target="_blank" rel="nofollow noopener" href="https://www.instagram.com/"passHref><Image src="/img/footer/instagram.svg" width={24} height={24}  alt="instagram"/></Link> */}
+                        <Link target="_blank" rel="nofollow noopener" href="https://www.facebook.com/" passHref><Image src="/img/footer/facebook.svg" width={30} height={30} alt="facebook"/></Link>
+                        <Link target="_blank" rel="nofollow noopener" href="https://in.linkedin.com/" passHref><Image src="/img/footer/linkedin.svg" width={30} height={30} alt="linkedin"/></Link>
+                        <Link target="_blank" rel="nofollow noopener" href="https://twitter.com/" passHref><Image src="/img/footer/twitter.svg" width={30} height={30}  alt="twitter"/></Link>
                     </div>
                 </div>
             </div>

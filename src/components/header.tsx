@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -33,9 +33,16 @@ const Header = () => {
     toggleStyle = {display: 'none'}
   }
 
+  const [scroll, setScroll] = useState(false);
+    useEffect(() => {
+    window.addEventListener("scroll", () => {
+        setScroll(window.scrollY > 50);
+    });
+    }, []);
+
   return (
     <>
-        <header className="header">
+        <header  className={scroll ? "header sticky" : "header"}>
         <div className="container">
           <div className="header-inner">
             <div className="nav-toggle-btn" onClick={toggleClass} data-ga-label="navHamburger">
