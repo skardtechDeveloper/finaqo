@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import Carousel from 'react-bootstrap/Carousel';
 
 export default function Home() {
@@ -490,7 +491,7 @@ export default function Home() {
                           <div className="about-us-img-wrap"><Image src="/img/aboutmore.jpg"  width={442} height={300} alt="about_us_Illustration" /></div>
                           <h3>About Us</h3>
                           <p>We have partnerships with large banks, NBFCs and fintech lenders who offer a wide choice of products on our platform</p>
-                          <a href="/about-us" data-ga-label="highlightAboutPaisabazaar" className="know-more-btn">Know More</a>
+                          <Link href="/about-us" className="know-more-btn" passHref>Know More</Link>
                         </div>
                       </div>
                     </div>
