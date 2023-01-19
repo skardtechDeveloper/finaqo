@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Header = () => {
 
@@ -38,12 +39,12 @@ const Header = () => {
         <div className="container">
           <div className="header-inner">
             <div className="nav-toggle-btn" onClick={toggleClass} data-ga-label="navHamburger">
-                <img src="img/menu_icon.svg" alt="menu_icon" width="24px" id="imgID" />
+                <Image src="/img/menu_icon.svg" alt="menu_icon" width={24} height={15} id="imgID" />
             </div>
 
             <div className="site-logo" id="siteLogoPaisabazaar">
                 <Link href="/" passHref>
-                    <img src="img/logo.png" alt="Paisabazaar" width="100px" />
+                    <Image src="/img/logo.png" alt="Paisabazaar" width={100} height={87}/>
                 </Link>
             </div>
 

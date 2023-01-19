@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Carousel from 'react-bootstrap/Carousel';
 
 export default function Home() {
@@ -10,7 +11,7 @@ export default function Home() {
           <Carousel>
             <Carousel.Item>
               <div className="itemImg">
-                <img
+                <Image width={490} height={336}
                   className="d-block w-100"
                   src="/img/creditcard.jpg"
                   alt="First slide"
@@ -33,7 +34,7 @@ export default function Home() {
             </Carousel.Item>
             <Carousel.Item>
               <div className="itemImg">
-                <img
+                <Image width={490} height={336}
                   className="d-block w-100"
                   src="/img/loan.jpg"
                   alt="Second slide"
@@ -53,7 +54,7 @@ export default function Home() {
             </Carousel.Item>
             <Carousel.Item>
               <div className="itemImg">
-                <img
+                <Image width={490} height={336}
                   className="d-block w-100"
                   src="/img/creditcardscore.jpg"
                   alt="Third slide"
@@ -85,7 +86,7 @@ export default function Home() {
                   <div className="pb-product inactive">
                     <h1 className="product-name">Credit Cards</h1>
                     <p className="product-desc">From 35+ options, choose a card matching your lifestyle &amp; needs</p>
-                    <span className="m-hidden bestTag">Get Best Offers <span><img src="/img/blue-right-arrow.svg" alt="blue arrow" /></span></span>
+                    <span className="m-hidden bestTag">Get Best Offers <span><Image width={12} height={10} src="/img/blue-right-arrow.svg" alt="blue arrow" /></span></span>
                     <div className="product-icon">
                       <svg width="60" height="60" shapeRendering="geometricPrecision" className="mtIcon">
                         <g fill="none" fillRule="evenodd">
@@ -105,7 +106,7 @@ export default function Home() {
                   <div className="pb-product inactive">
                     <h1 className="product-name">Personal Loan</h1>
                     <p className="product-desc">Select the best offer curated just for you from a wide choice of Banks &amp; NBFC's</p>
-                    <span className="m-hidden bestTag">Check Eligibility <span><img src="/img/blue-right-arrow.svg" alt="blue arrow" /></span></span>
+                    <span className="m-hidden bestTag">Check Eligibility <span><Image width={12} height={10} src="/img/blue-right-arrow.svg" alt="blue arrow" /></span></span>
                     <div className="product-icon">
                       <svg width="60" height="60" shapeRendering="geometricPrecision">
                         <g fill="none" fillRule="evenodd">
@@ -130,7 +131,7 @@ export default function Home() {
                   <div className="pb-product sponsorTag inactive">
                     <h1 className="product-name">Micro Loans <span>(Under ₹50K)</span></h1>
                     <p className="product-desc">Instant small ticket loans to meet your immediate cash needs</p>
-                    <span className="m-hidden bestTag">Get Instant Loan <span><img src="/img/blue-right-arrow.svg" alt="blue arrow" /></span></span>
+                    <span className="m-hidden bestTag">Get Instant Loan <span><Image width={12} height={10} src="/img/blue-right-arrow.svg" alt="blue arrow" /></span></span>
                     <div className="product-icon">
 
                       <svg width="60" height="60" shapeRendering="geometricPrecision">
@@ -151,7 +152,7 @@ export default function Home() {
                   <div className="pb-product inactive">
                     <h1 className="product-name">Business Loan</h1>
                     <p className="product-desc w77">Expand your business with loans at low interest rates</p>
-                    <span className="m-hidden bestTag">Check Eligibility <span><img src="/img/blue-right-arrow.svg" alt="blue arrow" /></span></span>
+                    <span className="m-hidden bestTag">Check Eligibility <span><Image width={12} height={10} src="/img/blue-right-arrow.svg" alt="blue arrow" /></span></span>
                     <div className="product-icon">
                       <svg width="60" height="60" shapeRendering="geometricPrecision">
                         <g fill="none" fillRule="evenodd">
@@ -176,7 +177,7 @@ export default function Home() {
                   <div className="pb-product inactive">
                     <h1 className="product-name">Transfer Personal Loan</h1>
                     <p className="product-desc w77">Get better interest rates on your existing personal loan</p>
-                    <span className="m-hidden bestTag">Reduce Your EMI <span><img src="/img/blue-right-arrow.svg" alt="blue arrow" /></span></span>
+                    <span className="m-hidden bestTag">Reduce Your EMI <span><Image width={12} height={10} src="/img/blue-right-arrow.svg" alt="blue arrow" /></span></span>
                     <div className="product-icon">
                       <svg width="42" height="39" shapeRendering="geometricPrecision" className="plbt-icon mtIconRight">
                         <g fill="none" fillRule="evenodd">
@@ -196,7 +197,7 @@ export default function Home() {
                   <div className="pb-product covid inactive">
                     <h1 className="product-name">New Home Loan</h1>
                     <p className="product-desc">Choose from lowest interest rates available for your dream home</p>
-                    <span className="m-hidden bestTag">Check Eligibility <span><img src="/img/blue-right-arrow.svg" alt="blue arrow" /></span></span>
+                    <span className="m-hidden bestTag">Check Eligibility <span><Image width={12} height={10} src="/img/blue-right-arrow.svg" alt="blue arrow" /></span></span>
                     <div className="product-icon">
                       <svg width="60" height="60" shapeRendering="geometricPrecision">
                         <g fill="none" fillRule="evenodd">
@@ -223,7 +224,7 @@ export default function Home() {
                   <div className="pb-product inactive">
                     <h1 className="product-name">Loan Against Property</h1>
                     <p className="product-desc">Get liquidity against your property at best interest rates</p>
-                    <span className="m-hidden bestTag">Check Eligibility <span><img src="/img/blue-right-arrow.svg" alt="blue arrow" /></span></span>
+                    <span className="m-hidden bestTag">Check Eligibility <span><Image width={12} height={10} src="/img/blue-right-arrow.svg" alt="blue arrow" /></span></span>
                     <div className="product-icon">
                       <svg width="60" height="60" shapeRendering="geometricPrecision" className="mtIconRightTop">
                         <g fill="none" fillRule="evenodd">
@@ -248,7 +249,7 @@ export default function Home() {
                   <div className="pb-product covid inactive">
                     <h1 className="product-name hl">Transfer Home Loan</h1>
                     <p className="product-desc">Get better interest rates on your existing home loan</p>
-                    <span className="m-hidden bestTag">Reduce Your EMI <span><img src="/img/blue-right-arrow.svg" alt="blue arrow" /></span></span>
+                    <span className="m-hidden bestTag">Reduce Your EMI <span><Image width={12} height={10} src="/img/blue-right-arrow.svg" alt="blue arrow" /></span></span>
                     <div className="product-icon">
                       <svg width="40" height="42" shapeRendering="geometricPrecision" className="mtIconRight">
                         <g fill="none" fillRule="evenodd">
@@ -268,7 +269,7 @@ export default function Home() {
                   <div className="pb-product covid inactive">
                     <h1 className="product-name hl">Step up Credit Card</h1>
                     <p className="product-desc">A Credit Card for everyone, backed by a Fixed Deposit</p>
-                    <span className="m-hidden bestTag">Know More<span><img src="/img/blue-right-arrow.svg" alt="blue arrow" /></span></span>
+                    <span className="m-hidden bestTag">Know More<span><Image width={12} height={10} src="/img/blue-right-arrow.svg" alt="blue arrow" /></span></span>
                     <div className="product-icon">
                       <svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg">
                         <title>Artboard</title>
@@ -316,7 +317,7 @@ export default function Home() {
                   <div className="pb-product covid inactive">
                     <h1 className="product-name hl">Credit Health Report</h1>
                     <p className="product-desc">Get Expert Insights into your Credit Health</p>
-                    <span className="m-hidden bestTag">Get Credit Healthy Now<span><img src="/img/blue-right-arrow.svg" alt="blue arrow" /></span></span>
+                    <span className="m-hidden bestTag">Get Credit Healthy Now<span><Image width={12} height={10} src="/img/blue-right-arrow.svg" alt="blue arrow" /></span></span>
                     <div className="product-icon">
                       <svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg">
                         <title>475FEEA0-CDCA-444A-BDC2-648D3E61C606@1x</title>
@@ -362,7 +363,7 @@ export default function Home() {
                   <div className="pb-product covid inactive">
                     <h1 className="product-name life">Term Life Insurance</h1>
                     <p className="product-desc">Get insurance for your loved ones &amp; secure their future</p>
-                    <span className="m-hidden bestTag">Starting from ₹ 490/month* <span><img src="/img/blue-right-arrow.svg" alt="blue arrow" /></span></span>
+                    <span className="m-hidden bestTag">Starting from ₹ 490/month* <span><Image width={12} height={10} src="/img/blue-right-arrow.svg" alt="blue arrow" /></span></span>
                     <div className="product-icon">
                       <svg width="60" height="60" shapeRendering="geometricPrecision">
                         <g fill="none" fillRule="evenodd">
@@ -382,7 +383,7 @@ export default function Home() {
                   <div className="pb-product inactive">
                     <h1 className="product-name">100% Guaranteed Return Plan</h1>
                     <p className="product-desc w77">Get Guaranteed returns upto 7.2% Completely tax-free</p>
-                    <span className="m-hidden bestTag">View Plans<span><img src="/img/blue-right-arrow.svg" alt="blue arrow" /></span></span>
+                    <span className="m-hidden bestTag">View Plans<span><Image width={12} height={10} src="/img/blue-right-arrow.svg" alt="blue arrow" /></span></span>
                     <div className="product-icon">
                       <svg width="41" height="40" xmlns="http://www.w3.org/2000/svg" className="mtIconRight2">
                         <g fill="none" fillRule="evenodd">
@@ -407,7 +408,7 @@ export default function Home() {
                   <div className="pb-product covid inactive">
                     <h1 className="product-name">Health Insurance</h1>
                     <p className="product-desc w77">Protect Yourself &amp; your family against health expenses</p>
-                    <span className="m-hidden bestTag">Starting @ ₹ 200/month* <span><img src="/img/blue-right-arrow.svg" alt="blue arrow" /></span></span>
+                    <span className="m-hidden bestTag">Starting @ ₹ 200/month* <span><Image width={12} height={10} src="/img/blue-right-arrow.svg" alt="blue arrow" /></span></span>
                     <div className="product-icon">
                       <svg width="60" height="60" shapeRendering="geometricPrecision" className="mtIconRightTop">
                         <g fill="none" fillRule="evenodd">
@@ -427,7 +428,7 @@ export default function Home() {
                     <div className="pb-product active">
                         <h1 className="product-name">Direct Mutual Funds</h1>
                         <p className="product-desc">Get higher returns on your Mutual Fund investments</p>
-                        <span className="m-hidden bestTag">Check Your Investment<span><img src="/img/blue-right-arrow.svg" alt="blue arrow"/></span></span>
+                        <span className="m-hidden bestTag">Check Your Investment<span><Image width={12} height={10} src="/img/blue-right-arrow.svg" alt="blue arrow"/></span></span>
                         <div className="product-icon">
                             <svg width="60" height="60" shapeRendering="geometricPrecision">
                                 <g fill="none" fillRule="evenodd">
