@@ -16,18 +16,18 @@ const Footer = () => {
                             <div className="col-6 col-md-4">
                                 <ul>
                                     <li><Link href="/about-us" passHref>About</Link></li>
-                                    <li><Link href="/careers" passHref>Careers</Link></li>
-                                    <li><Link href="/awards" passHref>Awards</Link></li>
+                                    <li><Link href="/personal-loan" passHref>Personal Loan</Link></li>
+                                    <li><Link href="/home-loan" passHref>Home Loan</Link></li>
                                     <li><Link href="/contact-us" passHref>Contact Us</Link></li>
                                 </ul>
                             </div>
 
                             <div className="col-6 col-md-4">
                                 <ul>
-                                    <li><Link href="/careers" passHref>Privacy Policy</Link></li>
-                                    <li><Link href="/awards" passHref>Terms of Use</Link></li>
-                                    <li><Link href="/contact-us" passHref>Disclaimer</Link></li>
-                                    <li><Link href="/contact-us" passHref>Intellectual Policy</Link></li>
+                                    <li><Link href="/privacy-policy" passHref>Privacy Policy</Link></li>
+                                    <li><Link href="/terms-of-use" passHref>Terms of Use</Link></li>
+                                    <li><Link href="/disclaimer" passHref>Disclaimer</Link></li>
+                                    <li><Link href="/intellectual-property-policy" passHref>Intellectual Policy</Link></li>
                                 </ul>
                             </div>
                         </div>
