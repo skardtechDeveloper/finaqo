@@ -90,7 +90,7 @@ export default function Home() {
         <section className="products-section">
           <div className="container">
             <div className="section-title mb16 m-hidden">
-              <h3>Credit Products</h3>
+              <h3>Our Services</h3>
             </div>
             <div className="our-products row" id="ourProducts">
               <div className="col-3 col-md-4 col-lg-3 col-xl-3 ord-6">
@@ -159,31 +159,6 @@ export default function Home() {
                   </div>
                 </a>
               </div>
-              <div className="col-3 col-md-4 col-lg-3 col-xl-3 ord-9">
-                <a href="/business-loan">
-                  <div className="pb-product inactive">
-                    <h1 className="product-name">Business Loan</h1>
-                    <p className="product-desc w77">Expand your business with loans at low interest rates</p>
-                    <span className="m-hidden bestTag">Check Eligibility <span><Image width={12} height={10} src="/img/blue-right-arrow.svg" alt="blue arrow" /></span></span>
-                    <div className="product-icon">
-                      <svg width="60" height="60" shapeRendering="geometricPrecision">
-                        <g fill="none" fillRule="evenodd">
-                          <path d="M14.90641132 35.94488465l4.7189041-4.98482433s2.00438357-2.62289189 5.08109588-2.62732432l10.0082192-.01551351s1.3419178 3.36643243-2.0383562 4.88897297c0 0 4.8257535.07756757 8.8531507-2.27660811 0 0 4.7347945-3.23068919 7.9276712.03047297l-8.7150684 6.67191892s-2.7495891 1.99071626-7.7139726 2.42509456c-.4389042.0382298-.8783562.0753514-1.3161644.1302027l-6.7912329.8615541c-2.02958905.2570811-4.07287672.3878378-6.11890412.3906081l-3.88712329.0060946" fill="#F5D9BA"></path>
-                          <path d="M14.90641132 35.94488465l4.7189041-4.98482433s2.00438357-2.62289189 5.08109588-2.62732432l10.0082192-.01551351s1.3419178 3.36643243-2.0383562 4.88897297c0 0 4.8257535.07756757 8.8531507-2.27660811 0 0 4.7347945-3.23068919 7.9276712.03047297l-8.7150684 6.67191892s-2.7495891 1.99071626-7.7139726 2.42509456c-.4389042.0382298-.8783562.0753514-1.3161644.1302027l-6.7912329.8615541c-2.02958905.2570811-4.07287672.3878378-6.11890412.3906081l-3.88712329.0060946" stroke="#1B325E" strokeWidth="1.0980392" strokeLinecap="round" strokeLinejoin="round"></path>
-                          <path d="M10.0000548 33.88507835l3.05808219-.00443481c1.01863013-.00165978 1.84602739.86654292 1.84767123 1.93808346l.00822163 5.42418919c.00164138 1.07264865-.82301615 1.94251351-1.84274218 1.94417567l-3.05753425.00498649" fill="#ED6262"></path>
-                          <path d="M10.0000548 33.88507835l3.05808219-.00443481c1.01863013-.00165978 1.84602739.86654292 1.84767123 1.93808346l.00822163 5.42418919c.00164138 1.07264865-.82301615 1.94251351-1.84274218 1.94417567l-3.05753425.00498649M14.90641096 35.9448851l4.71890411-4.9848243s2.00438353-2.6228919 5.08109593-2.6273243l10.0082191-.0155135s1.3419178 3.3664324-2.0383561 4.8889729c0 0 4.8257534.0775676 8.8531507-2.2766081 0 0 4.7347945-3.2306892 7.9276712.030473l-8.7150685 6.6719189s-2.749589 1.9907162-7.7139726 2.4250946c-.4389041.0382298-.8783562.0753514-1.3161644.1302027l-6.7912329.8615541c-2.029589.2570811-4.0728767.3878378-6.11890408.3906081l-3.88712328.0060946M25.4554521 33.2309068l7.379726-.0343514" stroke="#1B325E" strokeWidth="1.0980392" strokeLinecap="round" strokeLinejoin="round"></path>
-                          <path d="M37.5482192 21.6845311H20.5509589c-1.69808219 0-3.07561643-1.3928919-3.07561643-3.1099054V9.92251757c0-1.71756757 1.37753424-3.11045946 3.07561643-3.11045946h16.9972603c1.6991781 0 3.0761644 1.39289189 3.0761644 3.11045946v8.65210813c0 1.7170135-1.3769863 3.1099054-3.0761644 3.1099054" fill="#E0B688"></path>
-                          <path d="M24.7293151 6.42638108V4.37693514c0-.45487838.3643835-.82332433.8131507-.82332433h6.9873972c.449863 0 .8142466.36844595.8142466.82332433v2.08601351" fill="#FFF"></path>
-                          <path d="M37.5482192 21.6845311H20.5509589c-1.69808219 0-3.07561643-1.3928919-3.07561643-3.1099054V9.92251757c0-1.71756757 1.37753424-3.11045946 3.07561643-3.11045946h16.9972603c1.6991781 0 3.0761644 1.39289189 3.0761644 3.11045946v8.65210813c0 1.7170135-1.3769863 3.1099054-3.0761644 3.1099054z" stroke="#1B325E" strokeWidth="1.0980392" strokeLinecap="round" strokeLinejoin="round"></path>
-                          <path d="M37.6252603 10.47790135c-2.2580822 2.00733784-5.2964384 3.23733785-8.6383562 3.23733785-3.3956164 0-6.4783562-1.2698919-8.7468493-3.33540542" stroke="#1B325E" strokeWidth="1.0980392" strokeLinecap="round" strokeLinejoin="round"></path>
-                          <path d="M29.7132603 15.6619081h-1.1791781c-.2339726 0-.4241096-.1922567-.4241096-.4282838v-3.11322971c0-.23658108.190137-.42828378.4241096-.42828378h1.1791781c.2345205 0 .4241096.1917027.4241096.42828378v3.11322971c0 .2360271-.1895891.4282838-.4241096.4282838" fill="#FFF"></path>
-                          <path d="M29.7132603 15.6619081h-1.1791781c-.2339726 0-.4241096-.1922567-.4241096-.4282838v-3.11322971c0-.23658108.190137-.42828378.4241096-.42828378h1.1791781c.2345205 0 .4241096.1917027.4241096.42828378v3.11322971c0 .2360271-.1895891.4282838-.4241096.4282838zM24.7293151 5.42647973V4.3765473c0-.45432433.3643835-.82277027.8131507-.82277027h6.9873972c.449863 0 .8142466.36844594.8142466.82277027v2.08656756" stroke="#1B325E" strokeWidth="1.0980392" strokeLinecap="round" strokeLinejoin="round"></path>
-                        </g>
-                      </svg>
-                    </div>
-                  </div>
-                </a>
-              </div>
               <div className="col-3 col-md-4 col-lg-3 col-xl-3 ord-10">
                 <a href="/personal-loan-balance-transfer">
                   <div className="pb-product inactive">
@@ -207,7 +182,7 @@ export default function Home() {
               <div className="col-3 col-md-4 col-lg-3 col-xl-3 ord-11">
                 <a href="/home-loan">
                   <div className="pb-product covid inactive">
-                    <h1 className="product-name">New Home Loan</h1>
+                    <h1 className="product-name">Home Loan</h1>
                     <p className="product-desc">Choose from lowest interest rates available for your dream home</p>
                     <span className="m-hidden bestTag">Check Eligibility <span><Image width={12} height={10} src="/img/blue-right-arrow.svg" alt="blue arrow" /></span></span>
                     <div className="product-icon">
@@ -225,6 +200,26 @@ export default function Home() {
                           <path stroke="#1B325E" strokeWidth="1.33333333" strokeLinecap="round" strokeLinejoin="round" d="M26.490641 21.0759615v-6.525641h4.7673077v7.9653846"></path>
                           <path d="M30.2716667 19.4978205c0 .3115385-.2532052.5647436-.5653846.5647436-.3115385 0-.5647436-.2532051-.5647436-.5647436 0-.3121795.2532051-.5647436.5647436-.5647436.3121794 0 .5653846.2525641.5653846.5647436" fill="#052F5F"></path>
                           <path stroke="#1B325E" strokeWidth="1.33333333" strokeLinecap="round" strokeLinejoin="round" d="M33.574359 19.2442308h3.9083333V14.55H33.574359z"></path>
+                        </g>
+                      </svg>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div className="col-3 col-md-4 col-lg-3 col-xl-3 ord-10">
+                <a href="/personal-loan-balance-transfer">
+                  <div className="pb-product inactive">
+                    <h1 className="product-name">Transfer Home Loan</h1>
+                    <p className="product-desc w77">Get better interest rates on your existing personal loan</p>
+                    <span className="m-hidden bestTag">Reduce Your EMI <span><Image width={12} height={10} src="/img/blue-right-arrow.svg" alt="blue arrow" /></span></span>
+                    <div className="product-icon">
+                      <svg width="42" height="39" shapeRendering="geometricPrecision" className="plbt-icon mtIconRight">
+                        <g fill="none" fillRule="evenodd">
+                          <path d="M5.97006667 30.8808667l4.79133333-4.99S12.7967333 23.2642 15.9154 23.2642h10.146s1.3546667 3.3766667-2.0753333 4.8973333c0 0 4.8926666.086 8.978-2.268 0 0 4.8046666-3.2313333 8.036.042l-8.844 6.6753334s-2.79 1.9913333-7.822 2.4193333c-.446.0373333-.8913334.074-1.3353334.1293333l-6.8846666.8526667c-2.058.2546667-4.13.3826667-6.20333337.3826667H5.97006667" fill="#F5D9BA"></path>
+                          <path d="M1 28.80793367h3.09933333c1.03333334 0 1.87066667.87133333 1.87066667 1.946v5.438c0 1.07466666-.83733333 1.946-1.87066667 1.946H1" fill="#ED6262"></path>
+                          <path d="M1 28.80793367h3.09933333c1.03333334 0 1.87066667.87133333 1.87066667 1.946v5.438c0 1.07466666-.83733333 1.946-1.87066667 1.946H1M5.97006667 30.8808667l4.79133333-4.99S12.7967333 23.2642 15.9154 23.2642h10.146s1.3546667 3.3766667-2.0753333 4.8973333c0 0 4.8926666.086 8.978-2.268 0 0 4.8046666-3.2313333 8.036.042l-8.844 6.6753334s-2.79 1.9913333-7.822 2.4193333c-.446.0373333-.8913334.074-1.3353334.1293333l-6.8846666.8526667c-2.058.2546667-4.13.3826667-6.20333337.3826667H5.97006667M16.5390667 28.1041333l7.4473333.0573334" stroke="#1B325E" strokeWidth="1.33333333" strokeLinecap="round" strokeLinejoin="round"></path>
+                          <path d="M30.7213333 9.31313333c0 3.54066667-2.0946666 6.59133337-5.1113333 7.98199997-1.1173333.5153334-2.362.8026667-3.6733333.8026667-4.8513334 0-8.7846667-3.9333333-8.7846667-8.78466667C13.152 4.4618 17.0853333.52846667 21.9366667.52846667c1.302 0 2.538.28333333 3.65.792 3.0293333 1.386 5.1346666 4.44333333 5.1346666 7.99266666" fill="#FFD032"></path>
+                          <path d="M18.2539333 17.291c-3.012-1.3933333-5.1013333-4.4413333-5.1013333-7.978 0-3.536 2.0893333-6.58466667 5.1013333-7.97733333M25.5866 1.32033333c3.0293333 1.386 5.1346667 4.44333334 5.1346667 7.99266667 0 3.5406667-2.094 6.5913333-5.1113334 7.982M19.6927333 5.56053333h4.4873334M19.6927333 7.72653333h4.4873334M21.0202 5.56053333c1.0493333 0 1.9006667 1.03733334 1.9006667 2.31733334 0 1.27933333-.8513334 1.94666666-1.9006667 1.94666666h-1.3273333L22.9622 13.0658667M25.61 17.2949333l3.7846667-.002M18.2539333 1.33593333h-3.346" stroke="#1B325E" strokeWidth="1.33333333" strokeLinecap="round" strokeLinejoin="round"></path>
                         </g>
                       </svg>
                     </div>
@@ -256,10 +251,37 @@ export default function Home() {
                   </div>
                 </a>
               </div>
+              <div className="col-3 col-md-4 col-lg-3 col-xl-3 ord-11">
+                <a href="/home-loan">
+                  <div className="pb-product covid inactive">
+                    <h1 className="product-name">Business Loan</h1>
+                    <p className="product-desc">Choose from lowest interest rates available for your dream home</p>
+                    <span className="m-hidden bestTag">Check Eligibility <span><Image width={12} height={10} src="/img/blue-right-arrow.svg" alt="blue arrow" /></span></span>
+                    <div className="product-icon">
+                      <svg width="60" height="60" shapeRendering="geometricPrecision">
+                        <g fill="none" fillRule="evenodd">
+                          <path d="M41.6048077 10.21294872l-8.3198718-5.08782051c-.7679487-.46923077-1.725641-.475-2.498718-.01282052l-8.9044871 5.31410257c-.9333334.5576923-1.5128205 1.57948718-1.5128205 2.66602564 0 .29423077.2371794.53141025.5314102.53141025h2.024359v9.31217945c0 .2935898.2378205.5314103.5314102.5314103.2935898 0 .5320513-.2378205.5320513-.5314103v-.4205128h16.175c0 .2935898.2378205.5314103.5314103.5314103.2935897 0 .5314102-.2378205.5314102-.5320513v-8.92692308h1.4410257c.2935897 0 .5314102-.23782051.5314102-.53141026 0-1.15320513-.6108974-2.24294872-1.5935897-2.84358974" fill="#FEDA9B" fillRule="nonzero"></path>
+                          <path d="M31.2576282 14.0190385h-4.7673077c-.2942308 0-.5320513.2378205-.5320513.5314102v7.0544872c0 .5032051.4076923.9102564.9102564.9102564h4.0102565c.5025641 0 .9102564-.4076923.9102564-.9102564v-7.0544872c0-.2935897-.2378206-.5314102-.5314103-.5314102" fill="#C58B59"></path>
+                          <path fill="#FFF" d="M33.574359 19.2442308h3.9083333V14.55H33.574359z"></path>
+                          <path fill="#052F5F" d="M40.7265385 10.29903846V5.30224359h-3.398718v2.91858974z"></path>
+                          <path d="M10.86185897 34.3030769h2.96602565c.98846153 0 1.78974359.8339744 1.78974359 1.8621795v5.2032051c0 1.0288462-.80128206 1.8621795-1.78974359 1.8621795h-2.96602565" fill="#ED6262"></path>
+                          <path d="M15.61762821 36.2862179l4.58461539-4.775s1.9480769-2.5134615 4.9326923-2.5134615h9.7076923s1.2967949 3.2307692-1.9846154 4.6865385c0 0 4.6814103.0820513 8.5910257-2.1705128 0 0 4.5974359-3.0923077 7.6891025.0410256l-8.4621795 6.3871795s-2.6705128 1.9057692-7.4858974 2.3147436c-.426282.0365384-.8525641.0711538-1.2769231.1237179l-6.5884615.8160257c-1.9698718.2442307-3.9512821.3660256-5.93589745.3660256h-3.77115384" fill="#F5D9BA"></path>
+                          <path d="M10.86185897 34.3030769h2.96602565c.98846153 0 1.78974359.8339744 1.78974359 1.8621795v5.2032051c0 1.0288462-.80128206 1.8621795-1.78974359 1.8621795h-2.96602565" stroke="#1B325E" strokeWidth="1.33333333" strokeLinecap="round" strokeLinejoin="round"></path>
+                          <path d="M15.61762821 36.2862179l4.58461539-4.775s1.9480769-2.5134615 4.9326923-2.5134615h9.7076923s1.2967949 3.2307692-1.9846154 4.6865385c0 0 4.6814103.0820513 8.5910257-2.1705128 0 0 4.5974359-3.0923077 7.6891025.0410256l-8.4621795 6.3871795s-2.6705128 1.9057692-7.4858974 2.3147436c-.426282.0365384-.8525641.0711538-1.2769231.1237179l-6.5884615.8160257c-1.9698718.2442307-3.9512821.3660256-5.93589745.3660256h-3.77115384M25.7312821 33.6298077l7.126282.0544872M40.6946154 22.5154487v-9.45897434h1.9724359c0-.97564103-.5076923-1.88076923-1.3397436-2.38974359l-8.3198718-5.08782051c-.5974359-.36538462-1.3480769-.36923077-1.948718-.01025641l-8.9044871 5.31474359c-.7775641.46410256-1.2538462 1.30320512-1.2538462 2.20961538h2.5557692v8.03461538M37.3279487 8.22070513V5.30211538h3.398718v4.66217949" stroke="#1B325E" strokeWidth="1.33333333" strokeLinecap="round" strokeLinejoin="round"></path>
+                          <path d="M33.1663462 9.96410256c0 .62435898-.5064103 1.13012821-1.1301283 1.13012821-.6237179 0-1.1294871-.50576923-1.1294871-1.13012821 0-.62371794.5057692-1.1301282 1.1294871-1.1301282.623718 0 1.1301283.50641026 1.1301283 1.1301282" fill="#1B325E"></path>
+                          <path stroke="#1B325E" strokeWidth="1.33333333" strokeLinecap="round" strokeLinejoin="round" d="M26.490641 21.0759615v-6.525641h4.7673077v7.9653846"></path>
+                          <path d="M30.2716667 19.4978205c0 .3115385-.2532052.5647436-.5653846.5647436-.3115385 0-.5647436-.2532051-.5647436-.5647436 0-.3121795.2532051-.5647436.5647436-.5647436.3121794 0 .5653846.2525641.5653846.5647436" fill="#052F5F"></path>
+                          <path stroke="#1B325E" strokeWidth="1.33333333" strokeLinecap="round" strokeLinejoin="round" d="M33.574359 19.2442308h3.9083333V14.55H33.574359z"></path>
+                        </g>
+                      </svg>
+                    </div>
+                  </div>
+                </a>
+              </div>
               <div className="col-3 col-md-4 col-lg-3 col-xl-3 ord-12">
                 <a href="/home-loan-balance-transfer">
                   <div className="pb-product covid inactive">
-                    <h1 className="product-name hl">Transfer Home Loan</h1>
+                    <h1 className="product-name hl">Transfer Credit Card Balance</h1>
                     <p className="product-desc">Get better interest rates on your existing home loan</p>
                     <span className="m-hidden bestTag">Reduce Your EMI <span><Image width={12} height={10} src="/img/blue-right-arrow.svg" alt="blue arrow" /></span></span>
                     <div className="product-icon">
@@ -281,59 +303,105 @@ export default function Home() {
         </section>
         <section className="pb-feature-section">
           <div className="container">
-              <div className="row" id="contentAboutHomes">
-                  <div className="col-md-5">
-                      <div className="pb-feature">
-                          <span className="top-line"></span>
-                          <h3>How to apply?</h3>
-                      </div>
-                      <div className="row">
-                          <div className="col-sm-6">
-                              <div className="pb-feature">
-                                  <Image src="/img/ammount.jpg" width={150} height={150} alt="credible" />
-                                  <h3>Choose Amount</h3>
-                              </div>
-                          </div>
-                          <div className="col-sm-6">
-                              <div className="pb-feature">
-                                  <Image src="/img/document.jpg" width={150} height={150} alt="trustworthy" />
-                                  <h3>Provide Document</h3>
-                              </div>
-                          </div>
-                          <div className="col-sm-6">
-                              <div className="pb-feature">
-                                  <Image src="/img/approved.jpg" width={150} height={150} alt="secure" />
-                                  <h3>Approved Loan</h3>
-                              </div>
-                          </div>
-                          <div className="col-sm-6">
-                              <div className="pb-feature">
-                                  <Image src="/img/getcass.jpg" width={150} height={150} alt="helpful" />
-                                  <h3>Get your money</h3>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-                  <div className="col-md-7">
-                    <div className="row">
-                      <div className="col-md-6 col-lg-5 offset-lg-1">
-                        <div className="about-us-block about-us-bg">
-                          <div className="about-us-img-wrap"><Image src="/img/aboutmore.jpg"  width={442} height={300} alt="about_us_Illustration" /></div>
-                          <h3>About Us</h3>
-                          <p>We have partnerships with large banks, NBFCs and fintech lenders who offer a wide choice of products on our platform</p>
-                          <Link href="/about-us" className="know-more-btn" passHref>Know More</Link>
-                        </div>
-                      </div>
+            <div className="row" id="contentAboutHomes">
+              <div className="col-md-5">
+                <div className="pb-feature">
+                  <span className="top-line"></span>
+                  <h3>How to apply?</h3>
+                </div>
+                <div className="row">
+                  <div className="col-sm-6">
+                    <div className="pb-feature">
+                      <Image src="/img/ammount.jpg" width={150} height={150} alt="credible" />
+                      <h3>Choose Amount</h3>
                     </div>
                   </div>
+                  <div className="col-sm-6">
+                    <div className="pb-feature">
+                      <Image src="/img/document.jpg" width={150} height={150} alt="trustworthy" />
+                      <h3>Provide Document</h3>
+                    </div>
+                  </div>
+                  <div className="col-sm-6">
+                    <div className="pb-feature">
+                      <Image src="/img/approved.jpg" width={150} height={150} alt="secure" />
+                      <h3>Approved Loan</h3>
+                    </div>
+                  </div>
+                  <div className="col-sm-6">
+                    <div className="pb-feature">
+                      <Image src="/img/getcass.jpg" width={150} height={150} alt="helpful" />
+                      <h3>Get your money</h3>
+                    </div>
+                  </div>
+                </div>
               </div>
+              <div className="col-md-7">
+                <div className="row">
+                  <div className="col-md-6 col-lg-5 offset-lg-1">
+                    <div className="about-us-block about-us-bg">
+                      <div className="about-us-img-wrap"><Image src="/img/aboutmore.jpg" width={442} height={300} alt="about_us_Illustration" /></div>
+                      <h3>About Us</h3>
+                      <p>We have partnerships with large banks, NBFCs and fintech lenders who offer a wide choice of products on our platform</p>
+                      <Link href="/about-us" className="know-more-btn" passHref>Know More</Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="pb-feature-section pb-feature-section2">
+          <div className="container">
+            <div className="row" id="contentAboutHomes">
+              <div className="col-md-5">
+                <div className="pb-feature">
+                  <span className="top-line"></span>
+                  <h3>Why Chose Us?</h3>
+                  <h4>Compare, Choose and Apply for personal credit products on Paisabazaar</h4>
+                  <a href="/about-us" data-ga-label="contentAboutPaisabazaar" className="read-more-btn">Read More</a>
+                </div>
+              </div>
+              <div className="col-md-7">
+                <div className="row">
+                  <div className="col-sm-6">
+                    <div className="pb-feature">
+                      <img src="/img/credible.svg" data-src="PBHP/assets/images/credible.svg" alt="credible" />
+                        <h3>Wide Choice</h3>
+                        <p>We have partnerships with large banks, NBFCs and fintech lenders who offer a wide choice of products on our platform</p>
+                    </div>
+                  </div>
+                  <div className="col-sm-6">
+                    <div className="pb-feature">
+                      <img src="/img/trustworthy.svg" data-src="PBHP/assets/images/trustworthy.svg" alt="trustworthy" />
+                        <h3>Easy Access to Credit</h3>
+                        <p>Our algorithm-based technology provides access to multiple credit offers, ease of comparison and unbiased advice</p>
+                    </div>
+                  </div>
+                  <div className="col-sm-6">
+                    <div className="pb-feature">
+                      <img src="/img/secure.svg" data-src="PBHP/assets/images/secure.svg" alt="secure" />
+                        <h3>Safe &amp; Secure</h3>
+                        <p>Your data is completely safe with us. We are ISO(27001: 2013) certified &amp; have built industry-best controls to keep your information secure.</p>
+                    </div>
+                  </div>
+                  <div className="col-sm-6">
+                    <div className="pb-feature">
+                      <img src="/img/helpful.svg" data-src="PBHP/assets/images/helpful.svg" alt="helpful" />
+                        <h3>Customer First</h3>
+                        <p>We have a dedicated and highly trained team of experts who work hard every day to help you take the best financial decisions</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
         <section className="our-partners-section product_pad1">
           <div className="container">
             <div className="pb-feature">
               <span className="top-line"></span>
-              <h3>Our partners from<br/>across the industry</h3>
+              <h3>Associated Financial <br />Institutions</h3>
             </div>
           </div>
           <div className="our_partners_wrapper container clear">

@@ -1,6 +1,7 @@
 {
   "name": "finaqo1",
   "version": "0.1.0",
+  "homepage":"http://finaqo.skardtech.com/",
   "private": true,
   "scripts": {
     "dev": "next dev",

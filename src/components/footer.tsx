@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="container">
             <div className="row">
               <div className="col-md-2 footer-logo">
-                <Link href="/" passHref><Image src="/img/logo.png" placeholder="blur" blurDataURL={'/img/logo.png'} width={154} height={154} alt="Logo-white-Paisabazaar"/></Link>
+                <Link href="/" passHref><Image src="/img/logo.png" placeholder="blur" blurDataURL={'/img/logo.png'} width={154} height={154} alt="Logo-white-Paisabazaar" /></Link>
               </div>
               <div className="col-md-7 footer-links">
                 <div className="row">
@@ -18,31 +18,22 @@ const Footer = () => {
                       <li><Link href="/personal-loan" passHref>Personal Loan</Link></li>
                       <li><Link href="/home-loan" passHref>Home Loan</Link></li>
                       <li><Link href="/business-loan" passHref>Business Loan</Link></li>
+                      <li><Link href="/over-draft" passHref>Over Draft</Link></li>
+                    </ul>
+                  </div>
+
+                  <div className="col-6 col-md-4">
+                    <ul>
                       <li><Link href="/loan-against-property" passHref>Loan Against Property</Link></li>
-
-                    </ul>
-                  </div>
-
-                  <div className="col-6 col-md-4">
-                    <ul>
-                      <li><Link href="/cibil-credit-report" passHref>Credit Score</Link></li>
-                      <li><Link href="/credit-card" passHref>Credit Card</Link></li>
-                      <li><Link href="/personal-loan-balance-transfer" passHref>Personal Loan Balance Transfer</Link></li>
-                      <li><Link href="/home-loan-balance-transfer" passHref>Home Loan Balance Transfer</Link></li>
-                    </ul>
-                  </div>
-                  <div className="col-6 col-md-4">
-                    <ul>
-                      <li><Link href="/cibil-credit-report" passHref>Credit Score</Link></li>
-                      <li><Link href="/credit-card" passHref>Credit Card</Link></li>
-                      <li><Link href="/personal-loan-balance-transfer" passHref>Personal Loan Balance Transfer</Link></li>
-                      <li><Link href="/home-loan-balance-transfer" passHref>Home Loan Balance Transfer</Link></li>
+                      <li><Link href="/cibil-credit-report" passHref>Personal Loan Transfer</Link></li>
+                      <li><Link href="/credit-card" passHref>Home Loan Transfer</Link></li>
+                      <li><Link href="/stepupcard" passHref>Credit Card Blance Transfer</Link></li>
                     </ul>
                   </div>
                 </div>
               </div>
               <div className="col-md-3 contact-links">
-                <div className="contact-list">
+                {/* <div className="contact-list">
                   <div className="list-detail-left">
                     <Image src="/img/footer/phone.svg" width={20} height={20} alt="Phone" />
                   </div>
@@ -73,7 +64,7 @@ const Footer = () => {
                   <div className="list-detail-right">
                     <h6>Time <br /> 24*7 All Day</h6>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -104,8 +95,7 @@ const Footer = () => {
             <div className="row">
               <div>
                 <p>**Discount is offered by the Insurance company as approved by IRDAI for the product under File &amp; Use guidelines <br />#On the basis of your profile</p>
-                <p>Policybazaar Insurance Brokers Private Limited | CIN: U74999HR2014PTC053454 | Registered Office - Plot No.119, Sector - 44, Gurgaon, Haryana - 122001 Tel no. : 0124-4218302 Email ID: enquiry@policybazaar.com </p>
-                <p>Policybazaar is registered as a Direct Broker | Registration No. 742, Registration Code No. IRDA/ DB 797/ 19, Valid till 09/06/2024, License category- Direct Broker (Life &amp; General)| Visitors are hereby informed that their information submitted on the website may be shared with insurers.Product information is authentic and solely based on the information received from the insurers.</p>
+                <p>FINAQO FINSERVE PRIVATE LIMITED | CIN: U67100UP2022PTC168776 | Registered Office - G-13,3rd Floor,Sector-3, Noida, Uttar Pradesh - 201301 Tel no. : 0120-4459361 Email ID: info@finaqo.in </p>
                 <p>Copyright © 2023 Finaqo | All Rights Reserved.</p>
               </div>
             </div>

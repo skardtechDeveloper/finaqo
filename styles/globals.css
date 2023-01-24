@@ -1012,7 +1012,7 @@ ol.decimal-list {
   margin-bottom: 10px;
   text-align: center;
 }
-.about-top-section .row{
+.about-top-section .row {
   align-items: center;
 }
 .mapouter {
@@ -1023,7 +1023,120 @@ ol.decimal-list {
 }
 .gmap_canvas {
   overflow: hidden;
-  background: 0 0!important;
+  background: 0 0 !important;
   height: 600px;
   width: 100%;
+}
+.cont_form {
+  background: url(/img/contactus.jpg) no-repeat border-box;
+  background-size: 100% 100%;
+}
+.cont_form .about-top-content {
+  width: 399px;
+  text-align: center;
+}
+.fileuploder-container {
+
+}
+.fileuploder-inner {
+  cursor: pointer;
+  border: 2px dashed #8e5a27;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  position: relative;
+  padding: 15px 20px;
+}
+.fileuploder-inner input {
+  height: 98px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  opacity: 0;
+  z-index: 10;
+  cursor: pointer;
+}
+.form-error-message{
+  color: red;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 15px;
+  display: block;
+  height: 44px;
+}
+.img-pview {
+  padding: 0.75rem;
+  gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.img-pview-inner {
+  display: flex;
+  background: #fcecbd;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.img-pview-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+.imgs {
+  height: 3rem;
+  width: 3rem;
+  display: inline-block;
+}
+.imgs img{
+  width: 100%;
+  height: 100%;
+  border-radius: 0.25rem;
+}
+.img-name {
+  display: inline-block;
+  width: 10rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.img-remove {
+  background-color: #fe7371;
+  padding: 0px 6px;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+.enquery-btn {
+  margin-left: auto;
+}
+.enquery-btn button{
+  background: #8e5a27;
+  border-color: #8e5a27;
+  padding: 10px 15px;
+  border-radius: 0;
+}
+.read-more-btn {
+  font-size: 12px;
+  font-weight: 700;
+  color: #8e5a27;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px 24px;
+  background-color: #e6eaef;
+  border-radius: 4px;
+  display: inline-block;
+  transition: all .4s;
+}
+.pb-feature .read-more-btn {
+  margin-top: 16px;
+}
+.pb-feature-section2{
+  padding-top: 30px !important;
+}
+.pb-feature h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #8c5920;
+  max-width: 100%;
+  margin-bottom: 16px;
 }
