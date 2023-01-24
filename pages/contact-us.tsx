@@ -79,7 +79,7 @@ const Contact = () => {
                           <div key={key} className='img-pview-inner'>
                             <div className="img-pview-left">
                               <div className="imgs ">
-                                <img src={URL.createObjectURL(file)} />
+                                <Image width={48} height={48}  src={URL.createObjectURL(file)} />
                               </div>
                               <span className="img-name">{file.name}</span>
                             </div>
