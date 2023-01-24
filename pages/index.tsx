@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import Head from 'next/head';
 import Carousel from 'react-bootstrap/Carousel';
 
 export default function Home() {
@@ -7,15 +8,20 @@ export default function Home() {
 
   return (
     <>
+      <Head>
+        <title>Home - Finaqo</title>
+        <meta name="description" content="We are New Era Fintech Company Finaqo is the fintech startup.We integrate our acute understanding of the marketplace with digital technology, to help you find the best financial products most suited to your needs.  Contact Us Apply Now Amazing Offer Best deals. Instant approvals. That’s the Finaqo guarantee. Home Loan From 30 Lakhs Read More … Home Read More »" />
+      </Head>
       <main className="main">
         <section className="homebanner">
           <Carousel>
             <Carousel.Item>
               <div className="itemImg">
                 <Image width={490} height={336}
-                  className="d-block w-100"
+                  className="d-block"
                   src="/img/creditcard.jpg"
                   alt="First slide"
+                  priority
                 />
               </div>
               <Carousel.Caption>
@@ -36,7 +42,8 @@ export default function Home() {
             <Carousel.Item>
               <div className="itemImg">
                 <Image width={490} height={336}
-                  className="d-block w-100"
+                  className="d-block"
+                  blurDataURL="/img/loan.jpg"
                   src="/img/loan.jpg"
                   alt="Second slide"
                 />
@@ -56,7 +63,7 @@ export default function Home() {
             <Carousel.Item>
               <div className="itemImg">
                 <Image width={490} height={336}
-                  className="d-block w-100"
+                  className="d-block"
                   src="/img/creditcardscore.jpg"
                   alt="Third slide"
                 />
@@ -130,7 +137,7 @@ export default function Home() {
               <div className="col-3 col-md-4 col-lg-3 col-xl-3 ord-8">
                 <a href="/short-term-loans">
                   <div className="pb-product sponsorTag inactive">
-                    <h1 className="product-name">Micro Loans <span>(Under ₹50K)</span></h1>
+                    <h1 className="product-name">Over Draft</h1>
                     <p className="product-desc">Instant small ticket loans to meet your immediate cash needs</p>
                     <span className="m-hidden bestTag">Get Instant Loan <span><Image width={12} height={10} src="/img/blue-right-arrow.svg" alt="blue arrow" /></span></span>
                     <div className="product-icon">
@@ -265,187 +272,6 @@ export default function Home() {
                   </div>
                 </a>
               </div>
-              <div className="col-3 col-md-4 col-lg-3 col-xl-3 ord-13">
-                <a href="/stepupcard">
-                  <div className="pb-product covid inactive">
-                    <h1 className="product-name hl">Step up Credit Card</h1>
-                    <p className="product-desc">A Credit Card for everyone, backed by a Fixed Deposit</p>
-                    <span className="m-hidden bestTag">Know More<span><Image width={12} height={10} src="/img/blue-right-arrow.svg" alt="blue arrow" /></span></span>
-                    <div className="product-icon">
-                      <svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg">
-                        <title>Artboard</title>
-                        <g id="Artboard" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
-                          <g id="stepup-credit-card" transform="translate(9.000000, 14.000000)">
-                            <g id="Icon">
-                              <path d="M37.0881653,24.3193949 L1.95086337,24.3193949 C0.873977379,24.3193949 0,23.4507887 0,22.3784931 L0,9.81179743 L39.0384405,9.81179743 L39.0384405,22.3784931 C39.0384405,23.4507887 38.1650512,24.3193949 37.0881653,24.3193949" id="Fill-1" fill="#8770F7" fillRule="nonzero"></path>
-                              <polygon id="Fill-3" fill="#FFFFFF" fillRule="nonzero" points="0.000411698629 9.81197299 39.0388522 9.81197299 39.0388522 5.47186825 0.000411698629 5.47186825"></polygon>
-                              <path d="M39.0386758,5.4715756 L0.000235256795,5.4715756 L0.000235256795,1.9415457 C0.000235256795,0.869835416 0.873624499,5.85311909e-05 1.95051049,5.85311909e-05 L37.0884005,5.85311909e-05 C38.1652866,5.85311909e-05 39.0386758,0.869835416 39.0386758,1.9415457 L39.0386758,5.4715756 Z" id="Fill-5" fill="#8770F7" fillRule="nonzero"></path>
-                              <path d="M20.8610539,24.3193364 C16.6581881,24.3193364 10.3538895,24.3193364 1.94815792,24.3193364 C0.871860071,24.3193364 0.000235256795,23.4519008 0.000235256795,22.3819465 L0.000235256795,5.47163413 L34.0847649,5.47163413" id="Stroke-6" stroke="#1B325E" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round"></path>
-                              <path d="M0.000294070736,1.9385606 C0.000294070736,0.868020947 0.871918891,0 1.94821674,0 L37.0914001,0 C38.1671098,0 39.0387346,0.868020947 39.0387346,1.9385606 L39.0387346,9.81162177 L4.83834113,9.81162177" id="Stroke-7" stroke="#1B325E" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round"></path>
-                              <line x1="4.82428457" y1="19.4248221" x2="10.8162013" y2="19.4248221" id="Stroke-8" stroke="#1B325E" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round"></line>
-                              <line x1="16.2625664" y1="19.4248221" x2="21.4463973" y2="19.4248221" id="Stroke-9" stroke="#1B325E" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round"></line>
-                            </g>
-                            <g id="Icon" transform="translate(24.181818, 14.080000)">
-                              <path d="M16.2100909,15.994768 L1.60809091,15.994768 C0.720151515,15.994768 0,15.2708012 0,14.3774907 L0,1.6172773 C0,0.72426546 0.720151515,0 1.60809091,0 L16.2100909,0 C17.0980303,0 17.8181818,0.72426546 17.8181818,1.6172773 L17.8181818,14.3774907 C17.8181818,15.2708012 17.0980303,15.994768 16.2100909,15.994768" id="Fill-2" fill="#CED8E2"></path>
-                              <path d="M16.2100909,15.994768 L1.60809091,15.994768 C0.720151515,15.994768 0,15.2708012 0,14.3774907 L0,1.6172773 C0,0.72426546 0.720151515,0 1.60809091,0 L16.2100909,0 C17.0980303,0 17.8181818,0.72426546 17.8181818,1.6172773 L17.8181818,14.3774907 C17.8181818,15.2708012 17.0980303,15.994768 16.2100909,15.994768 Z" id="Stroke-4" stroke="#1B325E" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round"></path>
-                              <path d="M6.24244269,12.3893294 C5.56644269,12.3893294 5.01818182,11.8084059 5.01818182,11.0915981 L5.01818182,4.68706062 C5.01818182,3.97049248 5.56644269,3.38932935 6.24244269,3.38932935 L13.1939209,3.38932935 C13.8699209,3.38932935 14.4181818,3.97049248 14.4181818,4.68706062 L14.4181818,11.0915981 C14.4181818,11.8084059 13.8699209,12.3893294 13.1939209,12.3893294 L6.24244269,12.3893294 Z" id="Fill-6" fill="#9AAFC3"></path>
-                              <path d="M14.4030303,8.22002163 L14.4030303,10.8731749 C14.4030303,11.7590187 13.6828788,12.4770122 12.7949394,12.4770122 L6.32021212,12.4770122 C5.43227273,12.4770122 4.71212121,11.7590187 4.71212121,10.8731749 L4.71212121,8.58339745" id="Stroke-8" stroke="#1B325E" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"></path>
-                              <path d="M4.71212121,7.54208669 L4.71212121,5.121623 C4.71212121,4.23577914 5.43227273,3.51778567 6.32021212,3.51778567 L12.7949394,3.51778567 C13.6828788,3.51778567 14.4030303,4.23577914 14.4030303,5.121623" id="Stroke-10" stroke="#1B325E" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"></path>
-                              <path d="M3.79636364,5.72 C4.04991254,5.72 4.279458,5.822771 4.44561623,5.98892923 C4.61177445,6.15508746 4.71454545,6.38463291 4.71454545,6.63818182 L4.71454545,6.63818182 L4.71454545,9.77302576 C4.71454545,10.0265747 4.61177445,10.2561201 4.44561623,10.4222784 C4.279458,10.5884366 4.04991254,10.6912076 3.79636364,10.6912076 C3.54281473,10.6912076 3.31326927,10.5884366 3.14711105,10.4222784 C2.98095282,10.2561201 2.87818182,10.0265747 2.87818182,9.77302576 L2.87818182,9.77302576 L2.87818182,6.63818182 C2.87818182,6.38463291 2.98095282,6.15508746 3.14711105,5.98892923 C3.31326927,5.822771 3.54281473,5.72 3.79636364,5.72 Z" id="Fill-12" stroke="#1B325E" strokeWidth="1.2" fill="#FFFFFF"></path>
-                              <line x1="4.00909091" y1="16.1429363" x2="4.00909091" y2="17.92" id="Stroke-15" stroke="#1B325E" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round"></line>
-                              <line x1="14.1060606" y1="16.1429363" x2="14.1060606" y2="17.92" id="Stroke-16" stroke="#1B325E" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round"></line>
-                              <g id="Group-14" transform="translate(7.636364, 6.144000)" stroke="#1B325E" strokeLinecap="round" strokeLinejoin="round" strokeWidth="0.954545455">
-                                <path d="M2.98181818,1.976 C2.98181818,2.52828586 2.53414255,2.976 1.98171395,2.976 C1.42938958,2.976 0.981818182,2.52828586 0.981818182,1.976 C0.981818182,1.42371414 1.42938958,0.976 1.98171395,0.976 C2.53414255,0.976 2.98181818,1.42371414 2.98181818,1.976 Z" id="Stroke-18" fill="#FFFFFF"></path>
-                                <line x1="1.95127411" y1="0" x2="1.95127411" y2="0.640080716" id="Stroke-19"></line>
-                                <line x1="3.25421455" y1="0.557548241" x2="2.8058002" y2="1.01171228" id="Stroke-20"></line>
-                                <line x1="3.81818182" y1="1.94802239" x2="3.18177838" y2="1.95551873" id="Stroke-21"></line>
-                                <line x1="3.27339819" y1="3.26333544" x2="2.81848316" y2="2.81549418" id="Stroke-22"></line>
-                                <line x1="1.98119105" y1="3.84" x2="1.96662314" y2="3.20005381" id="Stroke-23"></line>
-                                <line x1="0.583004983" y1="3.30170261" x2="1.02491865" y2="2.84121579" id="Stroke-24"></line>
-                                <line x1="0" y1="2.00828088" x2="0.636403436" y2="1.98601233" id="Stroke-25"></line>
-                                <line x1="0.525732653" y1="0.596507336" x2="0.986883028" y2="1.03775676" id="Stroke-26"></line>
-                              </g>
-                            </g>
-                          </g>
-                        </g>
-                      </svg>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div className="col-3 col-md-4 col-lg-3 col-xl-3 ord-14 hide creditHealthTile">
-                <a href="/credit-health">
-                  <div className="pb-product covid inactive">
-                    <h1 className="product-name hl">Credit Health Report</h1>
-                    <p className="product-desc">Get Expert Insights into your Credit Health</p>
-                    <span className="m-hidden bestTag">Get Credit Healthy Now<span><Image width={12} height={10} src="/img/blue-right-arrow.svg" alt="blue arrow" /></span></span>
-                    <div className="product-icon">
-                      <svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg">
-                        <title>475FEEA0-CDCA-444A-BDC2-648D3E61C606@1x</title>
-                        <g id="Advisory-Icon" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
-                          <g id="Desktop---CHR-&amp;-Advisory-icon" transform="translate(-622.000000, -902.000000)">
-                            <g id="Group-22-Copy" transform="translate(425.000000, 886.000000)">
-                              <g id="Group-41" transform="translate(197.000000, 16.000000)">
-                                <g id="Group-42" transform="translate(4.000000, 10.000000)">
-                                  <rect id="Rectangle" stroke="#1B325E" strokeWidth="1.3" fill="#63BCE7" x="0.65" y="0.65" width="6.7" height="30.7" rx="3.35"></rect>
-                                  <path d="M3.06425396,28.1807839 L3.06425396,4.5086052 C3.06425396,2.34466535 4.35454859,0.5905016 5.94611416,0.5905016 L4,1.01388371 C2.40843443,1.01388371 1,1.95165643 1,4.11559629 L1,27.8953927 C1,29.4544031 1.42969955,32.1213038 3.90318876,31.4977186 C6.37667796,30.8741334 4.30519907,31.3791778 4.52598129,31.2871891 C3.66332964,30.7435044 3.06425396,29.5585505 3.06425396,28.1807839 Z" id="Path" fill="#449FCB" fillRule="nonzero"></path>
-                                  <rect id="Rectangle" stroke="#1B325E" strokeWidth="1.3" fill="#D7B05E" x="0.65" y="0.65" width="6.7" height="30.7" rx="3.35"></rect>
-                                </g>
-                                <g id="Group-40" transform="translate(8.000000, 0.000000)" stroke="#1B325E" strokeWidth="1.3">
-                                  <path d="M23.176,0.65 C23.5001911,0.65 23.7936911,0.781404429 24.0061434,0.993856647 C24.2185956,1.20630886 24.35,1.49980887 24.35,1.82400003 L24.35,1.82400003 L24.35,33.176 C24.35,33.5001911 24.2185956,33.7936911 24.0061434,34.0061434 C23.7936911,34.2185956 23.5001911,34.35 23.176,34.35 L23.176,34.35 L1.82400003,34.35 C1.49980887,34.35 1.20630886,34.2185956 0.993856647,34.0061434 C0.781404429,33.7936911 0.65,33.5001911 0.65,33.176 L0.65,33.176 L0.65,6.7381001 L5.80146932,0.65 L23.176,0.65 Z" id="Rectangle" fill="#FFFFFF"></path>
-                                  <path d="M0.896551724,6.62820513 L5.11090338,6.52233524 C5.60550885,6.50991012 6,6.10538439 6,5.61062288 L6,1 L6,1" id="Path-7" strokeLinecap="round"></path>
-                                </g>
-                                <path d="M35.25,41.5 C33.380236,41.212344 32,39.6035254 32,37.7117634 L32,23.5 L32,23.5 C31.6666667,21.1666667 30.3333333,20 28,20 C20.6666667,20 13.3333333,20 6,20 C5.44771525,20 5,20.4477153 5,21 L5,37.5 L5,37.5 C5,40.1666667 5.54167588,41.5621118 6.62502763,41.6863355" id="Rectangle" stroke="#1B325E" strokeWidth="1.3" fill="#FDCE68" transform="translate(21.750000, 31.000000) scale(-1, 1) translate(-21.750000, -31.000000) "></path>
-                                <line x1="17" y1="25" x2="34" y2="25" id="Stroke-8" stroke="#1B325E" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round"></line>
-                                <g id="Group-27" transform="translate(12.500000, 9.000000)">
-                                  <path d="M8,-0.45 C10.307068,-0.45 12.3981867,0.474575324 13.9230539,1.97339534 C15.5431929,3.5658597 16.5240398,5.80658893 16.4456263,8.27536589 L16.4456263,8.27536589 L13.9301828,8.49215936 C14.0777997,6.65541137 13.3905881,4.97601741 12.2072853,3.79271465 C11.1305471,2.71597643 9.64304713,2.05 8,2.05 C6.37815867,2.05 4.90787032,2.69889076 3.83460804,3.75123158 C2.66975118,4.89338148 1.97249242,6.51075564 2.05688582,8.28959951 L2.05688582,8.28959951 L-0.43639084,8.48571556 C-0.577657245,5.96069575 0.39035945,3.65953595 2.0249477,2.0249477 C3.55409693,0.495798466 5.66659693,-0.45 8,-0.45 L8,-0.45 Z" id="Oval" stroke="#1B325E" strokeWidth="0.9" fill="#047C2F" fillRule="nonzero" strokeLinejoin="round"></path>
-                                  <circle id="Oval" stroke="#1B325E" strokeWidth="0.8" fill="#FFFFFF" cx="8" cy="7.11111111" r="1.37777778"></circle>
-                                  <polygon id="Path-3" fill="#1B325E" transform="translate(11.549983, 5.285556) rotate(-5.000000) translate(-11.549983, -5.285556) " points="8.94743556 5.77503567 13.9200798 3.75630385 14.1525303 4.22278277 9.35837717 6.81480824"></polygon>
-                                  <path d="M8,0 C9.53627744,0 11.0076867,0.434997487 12.2710974,1.23434004 C12.2710974,1.23434004 11.4671812,2.61940188 11.4671812,2.61940188 C10.4454677,1.95922376 9.2509329,1.6 8,1.6 C4.50745644,1.6 1.66831812,4.39756042 1.60121457,7.87405173 L1.6,8 L0,8 C0,3.581722 3.581722,0 8,0 Z" id="Oval-Copy-7" fill="#FCC80B" fillRule="nonzero"></path>
-                                  <path d="M3.51574227,1.37407368 L4.413594,2.69840834 C2.70655614,3.8557192 1.6488447,5.76135783 1.60164865,7.85372499 L1.6,8 L0,8 C0,5.36788365 1.28154898,2.95149067 3.38588144,1.46397913 L3.51574227,1.37407368 Z" id="Oval-Copy-6" fill="#F13D46" fillRule="nonzero"></path>
-                                </g>
-                                <path d="M0.65,41 L42.35,41 C42.7089851,41 43,41.2910149 43,41.65 C43,42.0089851 42.7089851,42.3 42.35,42.3 L0.65,42.3 C0.291014913,42.3 4.39629938e-17,42.0089851 0,41.65 C-4.39629938e-17,41.2910149 0.291014913,41 0.65,41 Z" id="Rectangle" fill="#1B325E"></path>
-                              </g>
-                            </g>
-                          </g>
-                        </g>
-                      </svg>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div className="container">
-                <div className="section-title mb16 m-hidden mt10">
-                  <h3>Insurance &amp; Investment</h3>
-                </div>
-              </div>
-              <div className="col-3 col-md-4 col-lg-3 col-xl-3 m-hidden">
-                <a href="/retainer-paisa">
-                  <div className="pb-product covid inactive">
-                    <h1 className="product-name life">Term Life Insurance</h1>
-                    <p className="product-desc">Get insurance for your loved ones &amp; secure their future</p>
-                    <span className="m-hidden bestTag">Starting from ₹ 490/month* <span><Image width={12} height={10} src="/img/blue-right-arrow.svg" alt="blue arrow" /></span></span>
-                    <div className="product-icon">
-                      <svg width="60" height="60" shapeRendering="geometricPrecision">
-                        <g fill="none" fillRule="evenodd">
-                          <path d="M29.8112 25.3112v14.0166667c0 2.028-1.644 3.672-3.672 3.672-2.0266667 0-3.67-1.6433334-3.67-3.67v-1.326" stroke="#1B325E" strokeWidth="1.33333333" strokeLinecap="round" strokeLinejoin="round"></path>
-                          <path d="M30 4.5794s18.302-.30133333 20 20.014c0 0-7.638-4.5426667-13.5813333 0 0 0 1.0653333-11.308-6.4186667-20.014M30 4.5794s-18.78.462-20 20.014c0 0 5.976-4.2726667 13.1766667 0 0 0-.2613334-14.44533333 6.8233333-20.014" fill="#1281D2"></path>
-                          <path d="M36.4186 24.5930667s1.254-10.9933334-6.4186667-20.01400003c0 0-7.0606666 4.93866666-6.8233333 20.01400003 0 0 6.06-4.4 13.242 0" fill="#56B8FF"></path>
-                          <path d="M50 24.5930667c0-11.0533334-8.9546667-20.01400003-20-20.01400003-11.04533333 0-20 8.96066663-20 20.01400003 0 0 3.80533333-2.9226667 9.924-1.5273334" stroke="#1B325E" strokeWidth="1.33333333" strokeLinecap="round" strokeLinejoin="round"></path>
-                          <path d="M33.39 23.0156c-7.1346667-1.3686667-10.2133333 1.5773333-10.2133333 1.5773333C23.6413333 8.14093333 30 4.5796 30 4.5796s6.746 6.31133333 6.4186667 20.0133333c0 0 2.41-2.966 9.9106666-1.5773333M30 3v1.06266667" stroke="#1B325E" strokeWidth="1.33333333" strokeLinecap="round" strokeLinejoin="round"></path>
-                        </g>
-                      </svg>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div className="col-3 col-md-4 col-lg-3 col-xl-3 ord-19 m-hidden">
-                <a href="/trad-prequote">
-                  <div className="pb-product inactive">
-                    <h1 className="product-name">100% Guaranteed Return Plan</h1>
-                    <p className="product-desc w77">Get Guaranteed returns upto 7.2% Completely tax-free</p>
-                    <span className="m-hidden bestTag">View Plans<span><Image width={12} height={10} src="/img/blue-right-arrow.svg" alt="blue arrow" /></span></span>
-                    <div className="product-icon">
-                      <svg width="41" height="40" xmlns="http://www.w3.org/2000/svg" className="mtIconRight2">
-                        <g fill="none" fillRule="evenodd">
-                          <circle fill="#B5D7FF" fillRule="nonzero" cx="20" cy="20" r="20"></circle>
-                          <path d="M20 0C8.954 0 0 8.954 0 20s8.954 20 20 20c5.513 0 10.505-2.23 14.123-5.839.492-.508.58-.916.264-1.223-.34-.33-.764-.224-1.274.317A18.6 18.6 0 0120 38.642C9.704 38.642 1.358 30.296 1.358 20S9.704 1.358 20 1.358c7.469 0 13.912 4.392 16.887 10.734h1.489C35.31 4.979 28.236 0 20 0z" fill="#052F5F" fillRule="nonzero"></path>
-                          <circle fill="#FFD032" fillRule="nonzero" cx="20" cy="20" r="10"></circle>
-                          <path d="M20 9C13.925 9 9 13.925 9 20s4.925 11 11 11 11-4.925 11-11S26.075 9 20 9zm0 1.283c5.367 0 9.717 4.35 9.717 9.717 0 5.367-4.35 9.717-9.717 9.717-5.367 0-9.717-4.35-9.717-9.717 0-5.367 4.35-9.717 9.717-9.717z" fill="#052F5F" fillRule="nonzero"></path>
-                          <g fill="#052F5F" fillRule="nonzero">
-                            <path d="M18.704 15c2.008 0 3.536 1.707 3.536 3.737 0 1.897-1.37 3.154-3.325 3.239l-.211.004h-.162l3.554 3.228c.26.237.271.594.043.841l-.085.078a.886.886 0 01-1 .036l-.092-.071-4.755-4.32c-.43-.392-.145-1.013.452-1.085l.115-.007h1.93c1.201 0 1.991-.687 1.991-1.943 0-1.38-.947-2.437-1.991-2.437-.427 0-.773-.291-.773-.65 0-.359.346-.65.773-.65z"></path>
-                            <path d="M22.651 15a.65.65 0 01.096 1.293l-.096.007h-6a.65.65 0 01-.096-1.293l.096-.007h6z"></path>
-                            <path d="M22.651 17.8a.65.65 0 01.096 1.293l-.096.007h-6a.65.65 0 01-.096-1.293l.096-.007h6z"></path>
-                          </g>
-                          <path d="M33.226 9.707l5.715-2.776a1 1 0 011.423 1.066l-.901 5.366a1 1 0 01-1.46.715l-4.814-2.591a1 1 0 01.037-1.78z" fill="#052F5F"></path>
-                        </g>
-                      </svg>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div className="col-3 col-md-4 col-lg-3 col-xl-3 ord-4 m-hidden">
-                <a href="/paisa">
-                  <div className="pb-product covid inactive">
-                    <h1 className="product-name">Health Insurance</h1>
-                    <p className="product-desc w77">Protect Yourself &amp; your family against health expenses</p>
-                    <span className="m-hidden bestTag">Starting @ ₹ 200/month* <span><Image width={12} height={10} src="/img/blue-right-arrow.svg" alt="blue arrow" /></span></span>
-                    <div className="product-icon">
-                      <svg width="60" height="60" shapeRendering="geometricPrecision" className="mtIconRightTop">
-                        <g fill="none" fillRule="evenodd">
-                          <path d="M47.1562667 12.89646667c-3.792-3.862-9.94-3.862-13.732 0l-.956.974c-1.3633334 1.38866666-3.5733334 1.38866666-4.9366667 0l-.956-.974c-3.792-3.862-9.93933333-3.862-13.732 0-3.79133333 3.86266666-3.79133333 10.12466663 0 13.98600003l3.48333333 3.548 11.94799997 12.176c.714.728 1.7613334.9086666 2.6426667.5433333.296-.122.5733333-.304.8133333-.5486667l-.0126666.0053334 15.438-15.724c3.7913333-3.8613334 3.7913333-10.12333337 0-13.98600003" fill="#ED6262"></path>
-                          <path d="M31.7311333 42.6009333c-.9546666.972-2.5013333.972-3.4553333 0l-15.432-15.718c-3.792-3.862-3.792-10.12399997 0-13.98666663 3.792-3.862 9.94-3.862 13.732 0" stroke="#1B325E" strokeWidth="1.33333333" strokeLinecap="round" strokeLinejoin="round"></path>
-                          <path d="M28.2747333 42.6068c.9513334.9686667 2.4926667.9686667 3.4433334 0l15.438-15.724c3.792-3.862 3.792-10.12333333 0-13.986-3.792-3.862-9.94-3.862-13.7313334 0 0 0-2.8253333 2.94066667-2.3586666 6.60866667" stroke="#1B325E" strokeWidth="1.33333333" strokeLinecap="round" strokeLinejoin="round"></path>
-                          <path d="M13.90366667 15.4284C15.247 13.59373333 17.393 12.40573333 19.81233333 12.40573333" stroke="#FFF" strokeWidth="1.33333333" strokeLinecap="round" strokeLinejoin="round"></path>
-                          <path d="M13.62433333 16.8646c0 .31133333-.24733333.56333333-.55333333.56333333-.30533333 0-.55333333-.252-.55333333-.56333333 0-.312.248-.564.55333333-.564.306 0 .55333333.252.55333333.564" fill="#FFF"></path>
-                        </g>
-                      </svg>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div className="col-3 col-md-4 col-lg-3 col-xl-3 ord-18 m-hidden">
-                <a href="/direct-mutual-funds">
-                    <div className="pb-product inactive">
-                        <h1 className="product-name">Direct Mutual Funds</h1>
-                        <p className="product-desc">Get higher returns on your Mutual Fund investments</p>
-                        <span className="m-hidden bestTag">Check Your Investment<span><Image width={12} height={10} src="/img/blue-right-arrow.svg" alt="blue arrow"/></span></span>
-                        <div className="product-icon">
-                            <svg width="60" height="60" shapeRendering="geometricPrecision">
-                                <g fill="none" fillRule="evenodd">
-                                    <path d="M38.8105333 15.2327213c0 4.4918033-3.776 8.1318033-8.4333333 8.1318033-4.658 0-8.43333333-3.64-8.43333333-8.1318033 0-4.49180327 3.77533333-8.132459 8.43333333-8.132459 4.6573333 0 8.4333333 3.64065573 8.4333333 8.132459" fill="#FFD032" fillRule="nonzero"></path>
-                                    <path stroke="#1B325E" strokeWidth="1.33333333" strokeLinecap="round" strokeLinejoin="round" d="M30.4140667 23.392918v19.9514754M23.62826667 43.3442623h4.46200003M33.1009333 43.3442623H37.5636"></path>
-                                    <path d="M19.5768 35.1789508C15.86613333 33.1920656 15.00013333 26.036 15.00013333 26.036c2.92266667-.3422951 7.29 2.042623 7.29 2.042623 1.84 1.157377 2.42466667 2.4636065 2.492 3.5777049.11333334 1.8977049-1.34533333 3.6190164-3.29866666 3.8786885-.01866667.0026229-.03666667.0045902-.056.0072131-.638.0754098-1.288-.0622951-1.85066667-.3632787" fill="#84EB9C"></path>
-                                    <path d="M30.2526 41.1279344s-4.6866667-6.009836-8.90866667-9.1219672M19.5768 35.1789508C15.86613333 33.1920656 15.00013333 26.036 15.00013333 26.036c2.92266667-.3422951 7.29 2.042623 7.29 2.042623 1.84 1.157377 2.42466667 2.4636065 2.492 3.5777049.05066667.849836-.214 1.6636065-.696 2.3272131M38.8105333 15.2327213c0 4.4918033-3.776 8.1318033-8.4333333 8.1318033-4.658 0-8.43333333-3.64-8.43333333-8.1318033 0-4.49180327 3.77533333-8.132459 8.43333333-8.132459 4.6573333 0 8.4333333 3.64065573 8.4333333 8.132459zM30.2526 4v3.12786885M22.08593333 7.30557377L24.3626 9.53311475M18.6738 15.2384918l3.24266667.0327869M22.18166667 23.3071475l2.28866666-2.2170491M38.7851333 7.47337705L36.4238 9.61763934M42.0273333 15.2698361l-3.2426666-.0288525M38.4368667 23.3839344L36.2102 21.1091803M27.7792667 11.41803279H32.9746M27.7792667 13.83606557H32.9746" stroke="#1B325E" strokeWidth="1.33333333" strokeLinecap="round" strokeLinejoin="round"></path>
-                                    <path d="M29.3157333 11.41803279c1.2153334 0 2.2006667 1.15803278 2.2006667 2.58622951 0 1.4288525-.9853333 2.1731147-2.2006667 2.1731147h-1.5366666L31.5644 19.7963934" stroke="#1B325E" strokeWidth="1.33333333" strokeLinecap="round" strokeLinejoin="round"></path>
-                                    <path d="M41.0898667 33.0112787c3.7106666-1.9868853 4.5766666-9.1429508 4.5766666-9.1429508-2.9226666-.3422951-7.29 2.0426229-7.29 2.0426229-1.84 1.1573771-2.4246666 2.4629508-2.492 3.5777049-.1133333 1.897705 1.3453334 3.6190164 3.2986667 3.8786886.0186667.0026229.0366667.0045901.056.0072131.638.0754098 1.288-.0622951 1.8506667-.3632787" fill="#84EB9C"></path>
-                                    <path d="M30.4140667 38.9603279s4.6866666-6.0098361 8.9086666-9.1219672M41.0898667 33.0112787c3.7106666-1.9868853 4.5766666-9.1429508 4.5766666-9.1429508-2.9226666-.3422951-7.29 2.0426229-7.29 2.0426229-1.84 1.1573771-2.4246666 2.4629508-2.492 3.5777049-.0506666.8498361.214 1.6636066.696 2.3272132" stroke="#1B325E" strokeWidth="1.33333333" strokeLinecap="round" strokeLinejoin="round"></path>
-                                </g>
-                            </svg>
-                        </div>
-                    </div>
-                </a>
-            </div>
             </div>
           </div>
         </section>

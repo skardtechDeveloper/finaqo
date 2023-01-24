@@ -1,8 +1,13 @@
 import Image from 'next/image';
+import Head from 'next/head';
 
 const About = () => {
   return (
     <>
+      <Head>
+        <title>About Us - Finaqo</title>
+        <meta name="description" content="sgsg" />
+      </Head>
       <main className="main">
         <section className="about-top-section">
           <div className="container">

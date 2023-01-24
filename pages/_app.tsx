@@ -11,9 +11,7 @@ const sans = Open_Sans({ subsets: ['latin'] });
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
-       <Head>
-        <title>Home - Finaqo</title>
-        <meta name="description" content="We are New Era Fintech Company Finaqo is the fintech startup.We integrate our acute understanding of the marketplace with digital technology, to help you find the best financial products most suited to your needs.  Contact Us Apply Now Amazing Offer Best deals. Instant approvals. That’s the Finaqo guarantee. Home Loan From 30 Lakhs Read More … Home Read More »" />
+      <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="img/favicon/cropped-logo22-32x32.png" sizes="32x32" />
         <link rel="icon" href="img/favicon/cropped-logo22-192x192.png" sizes="192x192" />

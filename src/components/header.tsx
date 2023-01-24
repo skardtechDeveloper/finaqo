@@ -73,9 +73,7 @@ const Header = () => {
                                         <p className="menu-title">Loans</p>
                                         <ul>
                                             <li><Link href="/personal-loan" passHref>Personal Loan</Link></li>
-                                            <li><Link href="/short-term-loans" passHref>Micro Loan (Under ₹50K)</Link></li>
                                             <li><Link href="/business-loan" passHref>Business Loan</Link></li>
-
                                             <li><Link href="/home-loan" passHref>Home Loan</Link></li>
                                             <li><Link href="/loan-against-property" passHref>Loan Against Property</Link></li>
                                         </ul>
@@ -85,7 +83,6 @@ const Header = () => {
                                         <ul>
                                             <li><Link href="/cibil-credit-report" passHref>Credit Score</Link><span className="badge badge-green">Free</span></li>
                                             <li><Link href="/credit-card" passHref>Credit Card</Link></li>
-
                                             <li><Link href="/stepupcard" passHref>Step-Up Card</Link></li>
                                         </ul>
                                     </div>
@@ -107,7 +104,6 @@ const Header = () => {
                                         <p className="menu-title">Loans</p>
                                         <ul>
                                             <li><Link href="/personal-loan" passHref>Personal Loan</Link></li>
-                                            <li><Link href="/short-term-loans" passHref>Micro Loan (Under ₹50K)</Link></li>
                                             <li><Link href="/business-loan" passHref>Business Loan</Link></li>
                                         </ul>
                                     </div>
