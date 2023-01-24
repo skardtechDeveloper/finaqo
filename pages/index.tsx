@@ -94,7 +94,7 @@ export default function Home() {
             </div>
             <div className="our-products row" id="ourProducts">
               <div className="col-3 col-md-4 col-lg-3 col-xl-3 ord-6">
-                <a href="/cards-lite">
+                <Link href="/cards-lite" passHref>
                   <div className="pb-product inactive">
                     <h1 className="product-name">Credit Cards</h1>
                     <p className="product-desc">From 35+ options, choose a card matching your lifestyle &amp; needs</p>
@@ -111,10 +111,10 @@ export default function Home() {
                       </svg>
                     </div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="col-3 col-md-4 col-lg-3 col-xl-3 ord-7">
-                <a href="/personal-loans">
+                <Link href="/personal-loans" passHref>
                   <div className="pb-product inactive">
                     <h1 className="product-name">Personal Loan</h1>
                     <p className="product-desc">Select the best offer curated just for you from a wide choice of Banks &amp; NBFC&apos;s</p>
@@ -136,10 +136,10 @@ export default function Home() {
                       </svg>
                     </div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="col-3 col-md-4 col-lg-3 col-xl-3 ord-8">
-                <a href="/short-term-loans">
+                <Link href="/short-term-loans" passHref>
                   <div className="pb-product sponsorTag inactive">
                     <h1 className="product-name">Over Draft</h1>
                     <p className="product-desc">Instant small ticket loans to meet your immediate cash needs</p>
@@ -157,10 +157,10 @@ export default function Home() {
                       </svg>
                     </div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="col-3 col-md-4 col-lg-3 col-xl-3 ord-10">
-                <a href="/personal-loan-balance-transfer">
+                <Link href="/personal-loan-balance-transfer" passHref>
                   <div className="pb-product inactive">
                     <h1 className="product-name">Transfer Personal Loan</h1>
                     <p className="product-desc w77">Get better interest rates on your existing personal loan</p>
@@ -177,10 +177,10 @@ export default function Home() {
                       </svg>
                     </div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="col-3 col-md-4 col-lg-3 col-xl-3 ord-11">
-                <a href="/home-loan">
+                <Link href="/home-loan" passHref>
                   <div className="pb-product covid inactive">
                     <h1 className="product-name">Home Loan</h1>
                     <p className="product-desc">Choose from lowest interest rates available for your dream home</p>
@@ -204,10 +204,10 @@ export default function Home() {
                       </svg>
                     </div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="col-3 col-md-4 col-lg-3 col-xl-3 ord-10">
-                <a href="/personal-loan-balance-transfer">
+                <Link href="/personal-loan-balance-transfer" passHref>
                   <div className="pb-product inactive">
                     <h1 className="product-name">Transfer Home Loan</h1>
                     <p className="product-desc w77">Get better interest rates on your existing personal loan</p>
@@ -224,10 +224,10 @@ export default function Home() {
                       </svg>
                     </div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="col-3 col-md-4 col-lg-3 col-xl-3 ord-13">
-                <a href="/loan-against-property">
+                <Link href="/loan-against-property" passHref>
                   <div className="pb-product inactive">
                     <h1 className="product-name">Loan Against Property</h1>
                     <p className="product-desc">Get liquidity against your property at best interest rates</p>
@@ -249,10 +249,10 @@ export default function Home() {
                       </svg>
                     </div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="col-3 col-md-4 col-lg-3 col-xl-3 ord-11">
-                <a href="/home-loan">
+                <Link href="/home-loan" passHref>
                   <div className="pb-product covid inactive">
                     <h1 className="product-name">Business Loan</h1>
                     <p className="product-desc">Choose from lowest interest rates available for your dream home</p>
@@ -276,10 +276,10 @@ export default function Home() {
                       </svg>
                     </div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="col-3 col-md-4 col-lg-3 col-xl-3 ord-12">
-                <a href="/home-loan-balance-transfer">
+                <Link href="/home-loan-balance-transfer" passHref>
                   <div className="pb-product covid inactive">
                     <h1 className="product-name hl">Transfer Credit Card Balance</h1>
                     <p className="product-desc">Get better interest rates on your existing home loan</p>
@@ -296,7 +296,7 @@ export default function Home() {
                       </svg>
                     </div>
                   </div>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -359,35 +359,35 @@ export default function Home() {
                   <span className="top-line"></span>
                   <h3>Why Chose Us?</h3>
                   <h4>Compare, Choose and Apply for personal credit products on Paisabazaar</h4>
-                  <a href="/about-us" data-ga-label="contentAboutPaisabazaar" className="read-more-btn">Read More</a>
+                  <Link href="/about-us" passHref className="read-more-btn">Read More</Link>
                 </div>
               </div>
               <div className="col-md-7">
                 <div className="row">
                   <div className="col-sm-6">
                     <div className="pb-feature">
-                      <img src="/img/credible.svg" data-src="PBHP/assets/images/credible.svg" alt="credible" />
+                      <Image height={44} width={42} src="/img/credible.svg" alt="credible" />
                         <h3>Wide Choice</h3>
                         <p>We have partnerships with large banks, NBFCs and fintech lenders who offer a wide choice of products on our platform</p>
                     </div>
                   </div>
                   <div className="col-sm-6">
                     <div className="pb-feature">
-                      <img src="/img/trustworthy.svg" data-src="PBHP/assets/images/trustworthy.svg" alt="trustworthy" />
+                      <Image height={44} width={42} src="/img/trustworthy.svg" alt="trustworthy" />
                         <h3>Easy Access to Credit</h3>
                         <p>Our algorithm-based technology provides access to multiple credit offers, ease of comparison and unbiased advice</p>
                     </div>
                   </div>
                   <div className="col-sm-6">
                     <div className="pb-feature">
-                      <img src="/img/secure.svg" data-src="PBHP/assets/images/secure.svg" alt="secure" />
+                      <Image height={44} width={42} src="/img/secure.svg" alt="secure" />
                         <h3>Safe &amp; Secure</h3>
                         <p>Your data is completely safe with us. We are ISO(27001: 2013) certified &amp; have built industry-best controls to keep your information secure.</p>
                     </div>
                   </div>
                   <div className="col-sm-6">
                     <div className="pb-feature">
-                      <img src="/img/helpful.svg" data-src="PBHP/assets/images/helpful.svg" alt="helpful" />
+                      <Image height={44} width={42} src="/img/helpful.svg" alt="helpful" />
                         <h3>Customer First</h3>
                         <p>We have a dedicated and highly trained team of experts who work hard every day to help you take the best financial decisions</p>
                     </div>
