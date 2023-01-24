@@ -1015,3 +1015,15 @@ ol.decimal-list {
 .about-top-section .row{
   align-items: center;
 }
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 600px;
+  width: 100%;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: 0 0!important;
+  height: 600px;
+  width: 100%;
+}

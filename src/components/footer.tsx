@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="container">
             <div className="row">
               <div className="col-md-2 footer-logo">
-                <Link href="/" passHref><Image src="/img/logo.png" width={154} height={154} alt="Logo-white-Paisabazaar" /></Link>
+                <Link href="/" passHref><Image src="/img/logo.png" placeholder="blur" blurDataURL={'/img/logo.png'} width={154} height={154} alt="Logo-white-Paisabazaar"/></Link>
               </div>
               <div className="col-md-7 footer-links">
                 <div className="row">

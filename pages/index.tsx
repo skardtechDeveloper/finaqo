@@ -21,7 +21,8 @@ export default function Home() {
                   className="d-block"
                   src="/img/creditcard.jpg"
                   alt="First slide"
-                  priority
+                  placeholder="blur"
+                  blurDataURL={'/img/creditcard.jpg'}
                 />
               </div>
               <Carousel.Caption>
@@ -43,9 +44,10 @@ export default function Home() {
               <div className="itemImg">
                 <Image width={490} height={336}
                   className="d-block"
-                  blurDataURL="/img/loan.jpg"
                   src="/img/loan.jpg"
                   alt="Second slide"
+                  placeholder="blur"
+                  blurDataURL={'/img/loan.jpg'}
                 />
               </div>
 
@@ -66,6 +68,8 @@ export default function Home() {
                   className="d-block"
                   src="/img/creditcardscore.jpg"
                   alt="Third slide"
+                  placeholder="blur"
+                  blurDataURL={'/img/creditcardscore.jpg'}
                 />
               </div>
 

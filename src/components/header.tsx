@@ -50,8 +50,8 @@ const Header = () => {
             </div>
 
             <div className="site-logo" id="siteLogoPaisabazaar">
-                <Link href="/" passHref>
-                    <Image src="/img/logo.png" alt="Paisabazaar" width={100} height={87}/>
+                <Link href="/"  passHref >
+                    <Image src="/img/logo.png" alt="Paisabazaar" width={100} height={87} placeholder="blur" blurDataURL={'/img/logo.png'} />
                 </Link>
             </div>
 
