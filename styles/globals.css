@@ -1036,7 +1036,7 @@ ol.decimal-list {
   text-align: center;
 }
 .fileuploder-container {
-
+  position: relative;
 }
 .fileuploder-inner {
   cursor: pointer;
@@ -1056,7 +1056,7 @@ ol.decimal-list {
   z-index: 10;
   cursor: pointer;
 }
-.form-error-message{
+.form-error-message {
   color: red;
   font-size: 16px;
   font-weight: 500;
@@ -1066,9 +1066,11 @@ ol.decimal-list {
 }
 .img-pview {
   padding: 0.75rem;
-  gap: 0.5rem;
+  column-gap: 1.08rem;
+  row-gap: 0.5rem;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 .img-pview-inner {
   display: flex;
@@ -1088,7 +1090,7 @@ ol.decimal-list {
   width: 3rem;
   display: inline-block;
 }
-.imgs img{
+.imgs img {
   width: 100%;
   height: 100%;
   border-radius: 0.25rem;
@@ -1109,7 +1111,7 @@ ol.decimal-list {
 .enquery-btn {
   margin-left: auto;
 }
-.enquery-btn button{
+.enquery-btn button {
   background: #8e5a27;
   border-color: #8e5a27;
   padding: 10px 15px;
@@ -1125,12 +1127,12 @@ ol.decimal-list {
   background-color: #e6eaef;
   border-radius: 4px;
   display: inline-block;
-  transition: all .4s;
+  transition: all 0.4s;
 }
 .pb-feature .read-more-btn {
   margin-top: 16px;
 }
-.pb-feature-section2{
+.pb-feature-section2 {
   padding-top: 30px !important;
 }
 .pb-feature h4 {

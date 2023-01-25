@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState, useEffect } from "react";
 import Image from 'next/image';
 import Head from 'next/head';
 import Button from 'react-bootstrap/Button';
@@ -8,26 +8,18 @@ import Row from 'react-bootstrap/Row';
 
 const Contact = () => {
 
-  const [files, setFile] = useState([]);
-  const [message, setMessage] = useState();
-  const handleFile = (e: { target: { files: any; }; }) => {
-    setMessage("");
-    let file = e.target.files;
+  const [images, setImages] = useState([] as any);
+  const [imageURLS, setImageURLs] = useState([]);
+  useEffect(() => {
+    if (images.length < 1) return;
+    const newImageUrls: any = [];
+    images.forEach((image:any) => newImageUrls.push(URL.createObjectURL(image)));
+    setImageURLs(newImageUrls);
+  }, [images]);
 
-    for (let i = 0; i < file.length; i++) {
-      const fileType = file[i]['type'];
-      const validImageTypes = ['image/jpeg', 'image/png', 'file/pdf'];
-      if (validImageTypes.includes(fileType)) {
-        setFile([...files, file[i]]);
-      } else {
-        setMessage("Only JPG, PNG and PDF accepted!");
-      }
-    }
-  };
-  const removeImage = (i: any) => {
-    setFile(files.filter(x => x.name !== i));
+  function onImageChange(e: any) {
+    setImages([...e.target.files]);
   }
-
 
   return (
     <>
@@ -65,31 +57,24 @@ const Contact = () => {
                       />
                     </Form.Group>
                     <div className="fileuploder-container">
-                      <span className="form-error-message">{message}</span>
                       <div className="fileuploder-inner">
                         <h3>Drag and Drop Your Document's here</h3>
                         <span>or</span><br />
                         <span>Browse Files</span>
-                        <input type="file" onChange={handleFile} className="" multiple name="files[]" />
+                        <input type="file" onChange={onImageChange}  multiple />
                       </div>
                     </div>
                     <div className="img-pview">
-                      {files.map((file, key) => {
-                        return (
-                          <div key={key} className='img-pview-inner'>
+                    {imageURLS.map((imageSrc) => (
+                          <div className='img-pview-inner'>
                             <div className="img-pview-left">
                               <div className="imgs ">
-                                <Image width={48} height={48} alt="" src={URL.createObjectURL(file)} />
+                                <Image width={48} height={48} alt="File" src={imageURLS ? imageSrc : 'img/file.png'} />
                               </div>
-                              <span className="img-name">{file.name}</span>
-                            </div>
-                            <div onClick={() => { removeImage(file.name) }} className="img-remove">
-                            <Image width={12} height={14} src="/img/delete.svg" alt="delete" />
                             </div>
                           </div>
 
-                        )
-                      })}
+                      ))}
                     </div>
                     <Button variant="primary" type="submit">
                       Submit
