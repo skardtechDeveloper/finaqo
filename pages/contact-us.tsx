@@ -65,8 +65,8 @@ const Contact = () => {
                       </div>
                     </div>
                     <div className="img-pview">
-                    {imageURLS.map((imageSrc) => (
-                          <div className='img-pview-inner'>
+                    {imageURLS.map((imageSrc, key) => (
+                          <div key={key} className='img-pview-inner'>
                             <div className="img-pview-left">
                               <div className="imgs ">
                                 <Image width={48} height={48} alt="File" src={imageURLS ? imageSrc : 'img/file.png'} />
