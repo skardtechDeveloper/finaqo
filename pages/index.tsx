@@ -357,9 +357,12 @@ export default function Home() {
               <div className="col-md-5">
                 <div className="pb-feature">
                   <span className="top-line"></span>
-                  <h3>Why Chose Us?</h3>
-                  <h4>Compare, Choose and Apply for personal credit products on Paisabazaar</h4>
+                  <h3>Why Choose Us?</h3>
+                  <h4>Compare, Choose and Apply for personal credit products on Finaqo</h4>
                   <Link href="/about-us" passHref className="read-more-btn">Read More</Link>
+                  <div className="pb-feature-img">
+                    <Image width={470} height={250} src="/img/choseus.jpg" alt="Choose Us" />
+                  </div>
                 </div>
               </div>
               <div className="col-md-7">
@@ -367,29 +370,29 @@ export default function Home() {
                   <div className="col-sm-6">
                     <div className="pb-feature">
                       <Image height={44} width={42} src="/img/credible.svg" alt="credible" />
-                        <h3>Wide Choice</h3>
-                        <p>We have partnerships with large banks, NBFCs and fintech lenders who offer a wide choice of products on our platform</p>
+                      <h3>Wide Choice</h3>
+                      <p>We have partnerships with large banks, NBFCs and fintech lenders who offer a wide choice of products on our platform</p>
                     </div>
                   </div>
                   <div className="col-sm-6">
                     <div className="pb-feature">
                       <Image height={44} width={42} src="/img/trustworthy.svg" alt="trustworthy" />
-                        <h3>Easy Access to Credit</h3>
-                        <p>Our algorithm-based technology provides access to multiple credit offers, ease of comparison and unbiased advice</p>
+                      <h3>Easy Access to Credit</h3>
+                      <p>Our algorithm-based technology provides access to multiple credit offers, ease of comparison and unbiased advice</p>
                     </div>
                   </div>
                   <div className="col-sm-6">
                     <div className="pb-feature">
                       <Image height={44} width={42} src="/img/secure.svg" alt="secure" />
-                        <h3>Safe &amp; Secure</h3>
-                        <p>Your data is completely safe with us. We are ISO(27001: 2013) certified &amp; have built industry-best controls to keep your information secure.</p>
+                      <h3>Safe &amp; Secure</h3>
+                      <p>Your data is completely safe with us. We are ISO(27001: 2013) certified &amp; have built industry-best controls to keep your information secure.</p>
                     </div>
                   </div>
                   <div className="col-sm-6">
                     <div className="pb-feature">
                       <Image height={44} width={42} src="/img/helpful.svg" alt="helpful" />
-                        <h3>Customer First</h3>
-                        <p>We have a dedicated and highly trained team of experts who work hard every day to help you take the best financial decisions</p>
+                      <h3>Customer First</h3>
+                      <p>We have a dedicated and highly trained team of experts who work hard every day to help you take the best financial decisions</p>
                     </div>
                   </div>
                 </div>

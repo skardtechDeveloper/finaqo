@@ -13,7 +13,7 @@ const Contact = () => {
   useEffect(() => {
     if (images.length < 1) return;
     const newImageUrls: any = [];
-    images.forEach((image:any) => newImageUrls.push(URL.createObjectURL(image)));
+    images.forEach((image: any) => newImageUrls.push(URL.createObjectURL(image)));
     setImageURLs(newImageUrls);
   }, [images]);
 
@@ -58,21 +58,21 @@ const Contact = () => {
                     </Form.Group>
                     <div className="fileuploder-container">
                       <div className="fileuploder-inner">
-                        <h3>Drag and Drop Your Document's here</h3>
+                        <h3>Drag and Drop here</h3>
                         <span>or</span><br />
                         <span>Browse Files</span>
-                        <input type="file" onChange={onImageChange}  multiple />
+                        <input type="file" onChange={onImageChange} multiple />
                       </div>
                     </div>
                     <div className="img-pview">
-                    {imageURLS.map((imageSrc, key) => (
-                          <div key={key} className='img-pview-inner'>
-                            <div className="img-pview-left">
-                              <div className="imgs ">
-                                <Image width={48} height={48} alt="File" src={imageURLS ? imageSrc : 'img/file.png'} />
-                              </div>
+                      {imageURLS.map((imageSrc, key) => (
+                        <div key={key} className='img-pview-inner'>
+                          <div className="img-pview-left">
+                            <div className="imgs ">
+                              <Image width={48} height={48} alt="File" src={imageURLS ? imageSrc : 'img/file.png'} />
                             </div>
                           </div>
+                        </div>
 
                       ))}
                     </div>
@@ -80,6 +80,48 @@ const Contact = () => {
                       Submit
                     </Button>
                   </Form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="about-pb-box-section">
+          <div className="container about-pb-box-container contact-pb-box-container">
+            <div className="row">
+              <div className="col-md-12 col-lg-4 box-hover">
+                <div className="about-pb-box">
+                  <div className="about-pb-box-icon"><Image width={44} height={44}src="/img/footer/mail.svg" alt="email-icon" /></div>
+                  <div>
+                    <span className="top-line"></span>
+                    <h3>Email:<br/>
+                      <a href="mailto:info@finaqo.in">info@finaqo.in</a>
+                    </h3>
+                    <p>For queries related to loans, credit cards or in case of any general enquiries</p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-6 col-lg-4 box-hover">
+                <div className="about-pb-box">
+                  <div className="about-pb-box-icon"><Image width={44} height={44}src="/img/footer/phone.svg" alt="call-icon" /></div>
+                  <div>
+                    <span className="top-line"></span>
+                    <h3>Toll Free:<br/>
+                      <a href="tel:01204459361">0120 445 9361</a>
+                    </h3>
+                    <p>Our customer service experts are here for you. Lines are open Mon-Sat from 9:30 am – 6:30 pm</p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-6 col-lg-4 box-hover">
+                <div className="about-pb-box">
+                  <div className="about-pb-box-icon"><Image width={44} height={44}src="/img/footer/stopwatch.svg" alt="24x7" /></div>
+                  <div>
+                    <span className="top-line"></span>
+                    <h3>Our Time<br/>
+                      <a href="#">24*7 ALL DAY'S</a>
+                    </h3>
+                    <p>You can even reach out to us anytime. Our service expert team will help you with your queries</p>
+                  </div>
                 </div>
               </div>
             </div>
