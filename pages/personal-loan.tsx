@@ -106,23 +106,23 @@ const personalLoan = () => {
                         </strong>
                       </p>
                       <ul>
-                        <li><a href="#interest">Interest Rates</a></li>
-                        <li><a href="#com">Compare Interest Rates Offered by Top Lenders</a></li>
-                        <li><a href="#emi">EMI Calculator</a></li>
-                        <li><a href="#features">Features &amp; Benefits</a></li>
-                        <li><a href="#fees">Fees &amp; Charges</a></li>
-                        <li><a href="#Types">Types of Personal Loan</a></li>
-                        <li><a href="#eligibility">Eligibility Criteria</a></li>
-                        <li id="interest"><a href="#docs">Documents Required</a></li>
-                        <li><a href="#how">How to Improve your Chances of Getting a Personal Loan?</a></li>
-                        <li><a href="#apply">How to Apply for a Personal Loan</a></li>
-                        <li><a href="#faq">FAQ</a></li>
+                        <li><Link href="#interest">Interest Rates</Link></li>
+                        <li><Link href="#com">Compare Interest Rates Offered by Top Lenders</Link></li>
+                        <li><Link href="#emi">EMI Calculator</Link></li>
+                        <li><Link href="#features">Features &amp; Benefits</Link></li>
+                        <li><Link href="#fees">Fees &amp; Charges</Link></li>
+                        <li><Link href="#Types">Types of Personal Loan</Link></li>
+                        <li><Link href="#eligibility">Eligibility Criteria</Link></li>
+                        <li id="interest"><Link href="#docs">Documents Required</Link></li>
+                        <li><Link href="#how">How to Improve your Chances of Getting a Personal Loan?</Link></li>
+                        <li><Link href="#apply">How to Apply for a Personal Loan</Link></li>
+                        <li><Link href="#faq">FAQ</Link></li>
                       </ul>
                     </div>
                     <h2 id="com"><strong>Personal Loan Interest Rates</strong></h2>
                     <p>
                       Currently, personal loan interest rates offered through Paisabazaar.com starts at 10.49% p.a. Some public sector banks may offer personal loans at lower interest rates. The final
-                      <a href="https://www.paisabazaar.com/personal-loan/interest-rates/"> personal loan interest rate</a>&nbsp;offered by banks and NBFCs will depend on several factors, such as the desired loan amount, credit
+                      <Link href="#"> personal loan interest rate</Link>&nbsp;offered by banks and NBFCs will depend on several factors, such as the desired loan amount, credit
                       score, income, etc.
                     </p>
                     <h3><strong>Comparing Interest Rates of Top Banks &amp; NBFCs in India</strong></h3>
@@ -133,151 +133,151 @@ const personalLoan = () => {
                           <td width="242"><strong>Interest Rate (p.a.)</strong></td>
                         </tr>
                         <tr>
-                          <td><a href="https://www.paisabazaar.com/sbi-bank/personal-loan/">State Bank of India</a></td>
+                          <td><Link href="#">State Bank of India</Link></td>
                           <td width="242">10.90%-15.40%</td>
                         </tr>
                         <tr>
-                          <td><a href="https://www.paisabazaar.com/hdfc-bank/personal-loan/">HDFC Bank</a></td>
+                          <td><Link href="#">HDFC Bank</Link></td>
                           <td width="242">11.00% onwards</td>
                         </tr>
                         <tr>
-                          <td><a href="https://www.paisabazaar.com/punjab-national-bank/personal-loan/">Punjab National Bank</a></td>
+                          <td><Link href="#">Punjab National Bank</Link></td>
                           <td width="242">10.15%-16.70%</td>
                         </tr>
                         <tr>
-                          <td><a href="https://www.paisabazaar.com/icici-bank/personal-loan/">ICICI Bank</a></td>
+                          <td><Link href="#">ICICI Bank</Link></td>
                           <td width="242">10.75% onwards</td>
                         </tr>
                         <tr>
-                          <td><a href="https://www.paisabazaar.com/bank-of-baroda/personal-loan/">Bank of Baroda</a></td>
+                          <td><Link href="#">Bank of Baroda</Link></td>
                           <td width="242">10.60%-17.95%</td>
                         </tr>
                         <tr>
-                          <td><a href="https://www.paisabazaar.com/union-bank-of-india/personal-loan/">Union Bank of India</a></td>
+                          <td><Link href="#">Union Bank of India</Link></td>
                           <td width="242">11.15%-15.25%</td>
                         </tr>
                         <tr>
-                          <td><a href="https://www.paisabazaar.com/axis-bank/personal-loan/">Axis Bank</a></td>
+                          <td><Link href="#">Axis Bank</Link></td>
                           <td width="242">10.49% onwards</td>
                         </tr>
                         <tr>
-                          <td><a href="https://www.paisabazaar.com/bank-of-india/personal-loan/">Bank of India</a></td>
+                          <td><Link href="#">Bank of India</Link></td>
                           <td width="242">10.10%-14.60%</td>
                         </tr>
                         <tr>
-                          <td><a href="https://www.paisabazaar.com/indian-bank/personal-loan/">Indian Bank</a></td>
+                          <td><Link href="#">Indian Bank</Link></td>
                           <td width="242">9.75%-14.75%</td>
                         </tr>
                         <tr>
-                          <td><a href="https://www.paisabazaar.com/kotak-mahindra-bank/personal-loan/">Kotak Mahindra Bank</a></td>
+                          <td><Link href="#">Kotak Mahindra Bank</Link></td>
                           <td width="242">10.99% onwards</td>
                         </tr>
                         <tr>
-                          <td><a href="https://www.paisabazaar.com/central-bank-of-india/personal-loan/">Central Bank of India</a></td>
+                          <td><Link href="#">Central Bank of India</Link></td>
                           <td width="242">10.70%-12.30%</td>
                         </tr>
                         <tr>
-                          <td><a href="https://www.paisabazaar.com/indusind-bank/personal-loan/">IndusInd Bank</a></td>
+                          <td><Link href="#">IndusInd Bank</Link></td>
                           <td width="242">10.49% onwards</td>
                         </tr>
                         <tr>
-                          <td><a href="https://www.paisabazaar.com/idbi-bank/personal-loan/">IDBI Bank</a></td>
+                          <td><Link href="#">IDBI Bank</Link></td>
                           <td width="242">11.00%-15.50%</td>
                         </tr>
                         <tr>
-                          <td><a href="https://www.paisabazaar.com/yes-bank/personal-loan/">Yes Bank</a></td>
+                          <td><Link href="#">Yes Bank</Link></td>
                           <td width="242">10.49% onwards</td>
                         </tr>
                         <tr>
-                          <td><a href="https://www.paisabazaar.com/uco-bank/personal-loan/">UCO Bank</a></td>
+                          <td><Link href="#">UCO Bank</Link></td>
                           <td width="242">12.30%-12.70%</td>
                         </tr>
                         <tr>
-                          <td><a href="https://www.paisabazaar.com/federal-bank/personal-loan/">Federal Bank</a></td>
+                          <td><Link href="#">Federal Bank</Link></td>
                           <td width="242">10.49%-17.99%</td>
                         </tr>
                         <tr>
-                          <td><a href="https://www.paisabazaar.com/bank-of-maharashtra/personal-loan/">Bank of Maharashtra</a></td>
+                          <td><Link href="#">Bank of Maharashtra</Link></td>
                           <td width="242">9.25%-15.05%</td>
                         </tr>
                         <tr>
-                          <td><a href="https://www.paisabazaar.com/idfc-bank/personal-loan/">IDFC FIRST Bank</a></td>
+                          <td><Link href="#">IDFC FIRST Bank</Link></td>
                           <td width="242">10.49% onwards</td>
                         </tr>
                         <tr>
-                          <td><a href="https://www.paisabazaar.com/bajaj-finserv/personal-loan/">Bajaj Finance</a></td>
+                          <td><Link href="#">Bajaj Finance</Link></td>
                           <td width="242">11.00% onwards</td>
                         </tr>
                         <tr>
-                          <td><a href="https://www.paisabazaar.com/rbl-bank/personal-loan/">RBL Bank</a></td>
+                          <td><Link href="#">RBL Bank</Link></td>
                           <td width="242">17.50%-26.00%</td>
                         </tr>
                         <tr>
-                          <td><a href="https://www.paisabazaar.com/muthoot-finance/personal-loan/">Muthoot Finance</a></td>
+                          <td><Link href="#">Muthoot Finance</Link></td>
                           <td width="242">14.00%-22.00%</td>
                         </tr>
                         <tr>
-                          <td><a href="https://www.paisabazaar.com/citibank/personal-loan/">Citibank</a></td>
+                          <td><Link href="#">Citibank</Link></td>
                           <td width="242">10.75%-16.49%</td>
                         </tr>
                         <tr>
-                          <td><a href="https://www.paisabazaar.com/tata-capital/personal-loan/">Tata Capital</a></td>
+                          <td><Link href="#">Tata Capital</Link></td>
                           <td width="242">10.99% onwards</td>
                         </tr>
                         <tr>
-                          <td width="278"><a href="https://www.paisabazaar.com/standard-chartered-bank/personal-loan/">Standard Chartered Bank</a></td>
+                          <td width="278"><Link href="#">Standard Chartered Bank</Link></td>
                           <td width="242">11.49% onwards</td>
                         </tr>
                         <tr>
-                          <td><a href="https://www.paisabazaar.com/hsbc-bank/personal-loan/">HSBC</a></td>
+                          <td><Link href="#">HSBC</Link></td>
                           <td width="242">9.75%-16.00%</td>
                         </tr>
                         <tr>
-                          <td><a href="https://www.paisabazaar.com/personal-loan/navi-finserv/">Navi Finserv</a></td>
+                          <td><Link href="#">Navi Finserv</Link></td>
                           <td width="242">9.90%-45.00%</td>
                         </tr>
                         <tr>
-                          <td><a href="https://www.paisabazaar.com/personal-loan/stashfin/">StashFin</a></td>
+                          <td><Link href="#">StashFin</Link></td>
                           <td width="242">11.99% onwards</td>
                         </tr>
                         <tr>
-                          <td><a href="https://www.paisabazaar.com/fullerton-india/personal-loan/">Fullerton India</a></td>
+                          <td><Link href="#">Fullerton India</Link></td>
                           <td width="242">11.99% onwards</td>
                         </tr>
                         <tr>
-                          <td><a href="https://www.paisabazaar.com/personal-loan/faircent-personal-loan/">Faircent</a></td>
+                          <td><Link href="#">Faircent</Link></td>
                           <td width="242">12.00% onwards</td>
                         </tr>
                         <tr>
-                          <td><a href="https://www.paisabazaar.com/personal-loan/kreditbee/">KreditBee</a></td>
+                          <td><Link href="#">KreditBee</Link></td>
                           <td width="242">Up to 29.95%</td>
                         </tr>
                         <tr>
-                          <td><a href="https://www.paisabazaar.com/personal-loan/moneytap/">MoneyTap</a></td>
+                          <td><Link href="#">MoneyTap</Link></td>
                           <td width="242">36.00% onwards</td>
                         </tr>
                         <tr>
-                          <td width="278"><a href="https://www.paisabazaar.com/indiabulls/personal-loan/">Dhani Loans &amp; Services</a>&nbsp;(Formerly known as Indiabulls Consumer Finance Ltd.)</td>
+                          <td width="278"><Link href="#">Dhani Loans &amp; Services</Link>&nbsp;(Formerly known as Indiabulls Consumer Finance Ltd.)</td>
                           <td width="242">13.99% onwards</td>
                         </tr>
                         <tr>
-                          <td><a href="https://www.paisabazaar.com/personal-loan/money-view/">Money View</a></td>
+                          <td><Link href="#">Money View</Link></td>
                           <td width="242">15.96% onwards</td>
                         </tr>
                         <tr>
-                          <td><a href="https://www.paisabazaar.com/personal-loan/paysense/">PaySense</a></td>
+                          <td><Link href="#">PaySense</Link></td>
                           <td width="242">16.80%-27.60%</td>
                         </tr>
                         <tr>
-                          <td><a href="https://www.paisabazaar.com/personal-loan/home-credit/">Home Credit</a></td>
+                          <td><Link href="#">Home Credit</Link></td>
                           <td width="242">24.00% onwards</td>
                         </tr>
                         <tr>
-                          <td><a href="https://www.paisabazaar.com/personal-loan/cashe/">CASHe</a></td>
+                          <td><Link href="#">CASHe</Link></td>
                           <td width="242">27.00% onwards</td>
                         </tr>
                         <tr id="emi">
-                          <td width="278"><a href="https://www.paisabazaar.com/hdb/personal-loan/">HDB Financial Services</a></td>
+                          <td width="278"><Link href="#">HDB Financial Services</Link></td>
                           <td width="242">Up to 36.00%</td>
                         </tr>
                       </tbody>
@@ -286,11 +286,10 @@ const personalLoan = () => {
                     <div>
                       <div className="vc_empty_space"></div>
                       <div className="bureauBannerShortCode">
-                        <img loading="lazy" alt="bureau meter" title="bureau meter" width="160" height="58"
-                          src="https://www.paisabazaar.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2017/10/PL-Icon_1.jpg.webp" />
+                        <Image loading="lazy" alt="bureau meter" title="bureau meter" width={160} height={58} src="/img/PL-Icon_1.jpg.webp" />
                         <p>
                           Get a <strong> Personal Loan Online </strong> at low interest rates
-                          <a target="_blank" href="https://paisabazaar.com/personal-loans?utm_source=organic&amp;utm_medium=banner&amp;utm_content=PL&amp;lang=en" title="Apply Now"> Apply Now </a>
+                          <Link target="_blank" rel="nofollow noopener" href="#" title="Apply Now" passHref> Apply Now </Link>
                         </p>
                       </div>
                       <div className="vc_empty_space"></div>
@@ -344,7 +343,7 @@ const personalLoan = () => {
                     <h2><strong>Fees &amp; Charges</strong></h2>
                     <p>
                       The fees and charges of personal loans usually vary from lender to lender and from case to case. The aforementioned table will give you a fair idea of the
-                      <a href="https://www.paisabazaar.com/personal-loan/actual-cost-personal-loan/">fees and charges related to personal loans</a>:
+                      <Link href="#" passHref>fees and charges related to personal loans</Link>:
                     </p>
                     <table>
                       <tbody>
@@ -392,45 +391,45 @@ const personalLoan = () => {
                     </p>
                     <h2>
                       <strong>
-                        <a href="#leadFormStarts">
-                          <img
+                        <Link href="#leadFormStarts">
+                          <Image
                             loading="lazy"
                             className="aligncenter wp-image-267429 size-full"
-                            src="https://www.paisabazaar.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/12/PL-Banner_5.jpg.webp"
+                            src="/img/PL-Banner_5.jpg.webp"
                             alt="Personal Loan"
-                            width="795"
-                            height="250"
+                            width={795}
+                            height={250}
                             sizes="(max-width: 795px) 100vw, 795px"
                           />
-                        </a>
+                        </Link>
                       </strong>
                     </h2>
                     <h2><strong>Types of Personal Loans</strong></h2>
                     <ul>
                       <li>
-                        <a href="https://www.paisabazaar.com/personal-loan/personal-loan-apps-instant-cash-loan/" target="_blank" rel="noopener"><strong>Instant Personal Loans&nbsp;</strong></a>are approved instantly within
+                        <Link href="#" target="_blank" rel="noopener"><strong>Instant Personal Loans&nbsp;</strong></Link>are approved instantly within
                         a few minutes with none to minimal document requirements. Personal loans with instant disbursals are usually offered by banks and NBFCs to their select customers on the basis of their credit profiles.
                       </li>
                       <li>
-                        <a href="https://www.paisabazaar.com/personal-loan/short-term-loans/" target="_blank" rel="noopener"><strong>Short-term Personal Loans</strong></a>&nbsp;have short repayment periods ranging from a few
+                        <Link href="#" target="_blank" rel="noopener"><strong>Short-term Personal Loans</strong></Link>&nbsp;have short repayment periods ranging from a few
                         days to 12 months.
                       </li>
                       <li>
-                        <strong><a href="https://www.paisabazaar.com/personal-loan/pre-approved-loan/" target="_blank" rel="noopener">Pre-approved Personal Loans</a>&nbsp;</strong>are usually offered by banks and NBFCs to
+                        <strong><Link href="#" target="_blank" rel="noopener">Pre-approved Personal Loans</Link>&nbsp;</strong>are usually offered by banks and NBFCs to
                         their existing customers on the basis of their credit history, income, employer’s profile, etc.
                       </li>
                       <li>
-                        <strong><a href="https://www.paisabazaar.com/personal-loan/consumer-loan/" target="_blank" rel="noopener">Consumer Durable Loans</a>&nbsp;</strong>can be used to purchase any consumer durable items
+                        <strong><Link href="#" target="_blank" rel="noopener">Consumer Durable Loans</Link>&nbsp;</strong>can be used to purchase any consumer durable items
                         like smartphones, furniture, microwave, etc. The purchase amount gets divided into EMIs and can be repaid within the tenure decide. Some products may require a down payment or a processing fee while
                         others may not.
                       </li>
                       <li>
-                        <a href="https://www.paisabazaar.com/personal-loan/personal-loan-balance-transfer/" target="_blank" rel="noopener"><strong>Personal Loan Balance Transfer&nbsp;</strong></a>facility allows borrowers to
+                        <Link href="#" target="_blank" rel="noopener"><strong>Personal Loan Balance Transfer&nbsp;</strong></Link>facility allows borrowers to
                         transfer their outstanding personal loan to a new lender for lower interest rates or better loan terms. However, transfer your outstanding personal loan only when the savings made through the transfer
                         outweighs the cost of the loan transfer.
                       </li>
                       <li>
-                        <a href="https://www.paisabazaar.com/personal-loan/top-up-loan/" target="_blank" rel="noopener"><strong>Personal Loan Top Up</strong></a>&nbsp;is offered to existing personal loan borrowers who need
+                        <Link href="#" target="_blank" rel="noopener"><strong>Personal Loan Top Up</strong></Link>&nbsp;is offered to existing personal loan borrowers who need
                         additional funds to meet their financial requirements. However, this loan facility is only offered to select existing personal loan borrowers having satisfactory loan repayment history and/or have
                         completed a specified number of EMIs.
                       </li>
@@ -457,11 +456,11 @@ const personalLoan = () => {
                     </ul>
                     <div className="vc_empty_space"></div>
                     <div className="bureauBannerShortCode">
-                      <img loading="lazy" alt="bureau meter" title="bureau meter" width="160" height="58"
-                        src="https://www.paisabazaar.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2017/10/PL-Icon_1.jpg.webp" />
+                      <Image loading="lazy" alt="bureau meter" title="bureau meter" width={160} height={58}
+                        src="/img/PL-Icon_1.jpg.webp" />
                       <p>
                         Get a <strong>Personal Loan Online </strong>at low interest rates
-                        <a target="_blank" href="https://paisabazaar.com/personal-loans?utm_source=organic&amp;utm_medium=banner&amp;utm_content=PL&amp;lang=en" title="Apply Now"> Apply Now </a>
+                        <Link target="_blank" href="#" title="Apply Now"> Apply Now </Link>
                       </p>
                     </div>
                     <div className="vc_empty_space"></div>
@@ -481,7 +480,7 @@ const personalLoan = () => {
                     <ul>
                       <li>Maintain your CIBIL score above 750</li>
                       <li>
-                        Check for inaccuracies in your credit report, as they might adversely impact your <a href="https://www.paisabazaar.com/cibil-credit-report/">credit score</a> and thereby, reduce the chances of loan
+                        Check for inaccuracies in your credit report, as they might adversely impact your <Link href="#">credit score</Link> and thereby, reduce the chances of loan
                         approval
                       </li>
                       <li id="apply">Compare the personal loan offers available from banks and NBFCs before finalizing any loan deal</li>
@@ -499,11 +498,11 @@ const personalLoan = () => {
                     </ul>
                     <div className="vc_empty_space"></div>
                     <div className="bureauBannerShortCode">
-                      <img loading="lazy" alt="bureau meter" title="bureau meter" width="160" height="58"
-                        src="https://www.paisabazaar.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2017/10/PL-Icon_1.jpg.webp" />
+                      <Image loading="lazy" alt="bureau meter" title="bureau meter" width={160} height={58}
+                        src="/img/PL-Icon_1.jpg.webp" />
                       <p>
                         Get a <strong>Personal Loan Online </strong>at low interest rates
-                        <a target="_blank" href="https://paisabazaar.com/personal-loans?utm_source=organic&amp;utm_medium=banner&amp;utm_content=PL&amp;lang=en" title="Apply Now"> Apply Now </a>
+                        <Link target="_blank" href="#" title="Apply Now"> Apply Now </Link>
                       </p>
                     </div>
                     <div className="vc_empty_space"></div>
@@ -515,7 +514,7 @@ const personalLoan = () => {
                     </p>
                     <p>
                       <strong>Read more: </strong>How to build/improve your credit score using&nbsp;
-                      <a href="https://www.paisabazaar.com/stepupcard/content/app-download?utm_source=organic_fd&amp;utm_medium=incon_bannerfd&amp;utm_term=pl">Step UP Credit Card&nbsp;</a> co-branded with SBM Bank India Ltd.
+                      <Link href="#">Step UP Credit Card&nbsp;</Link> co-branded with SBM Bank India Ltd.
                     </p>
                     <p><strong>2. Can I cancel a personal loan after the loan amount is disbursed?</strong></p>
                     <p>
@@ -540,7 +539,7 @@ const personalLoan = () => {
                     </p>
                     <p><strong>6. Can I get a personal loan if I have a home loan?</strong></p>
                     <p>
-                      <strong>Ans.</strong> Yes, you can apply for a personal loans even if you already have a <a href="https://www.paisabazaar.com/home-loan/" target="_blank" rel="noopener">home loan</a>. However, the chances
+                      <strong>Ans.</strong> Yes, you can apply for a personal loans even if you already have a <Link href="https://www.paisabazaar.com/home-loan/" target="_blank" rel="noopener">home loan</Link>. However, the chances
                       of getting the loan approved will depend on whether you have adequate repayment capacity to repay the proposed personal loan.
                     </p>
                     <p><strong>7. Can I get a personal loan without a salary slip?</strong></p>
@@ -589,11 +588,11 @@ const personalLoan = () => {
                 <h3 className="widgettitle">Personal Loan Pages</h3>
                 <div className="textwidget">
                   <ul>
-                    <li><a href="https://www.paisabazaar.com/personal-loan/interest-rates/">Personal Loan Interest Rate</a></li>
-                    <li><a href="https://www.paisabazaar.com/personal-loan/eligibility-calculator/">Personal Loan Eligibility</a></li>
-                    <li><a href="https://www.paisabazaar.com/personal-loan/documents-required/">Personal Loan Documents Required</a></li>
-                    <li><a href="https://www.paisabazaar.com/personal-loan/how-track-status-personal-loan-application/">Personal Loan Status</a></li>
-                    <li><a href="https://www.paisabazaar.com/personal-loan-emi-calculator/">Personal Loan EMI Calculator</a></li>
+                    <li><Link href="#">Personal Loan Interest Rate</Link></li>
+                    <li><Link href="#">Personal Loan Eligibility</Link></li>
+                    <li><Link href="#">Personal Loan Documents Required</Link></li>
+                    <li><Link href="#">Personal Loan Status</Link></li>
+                    <li><Link href="#">Personal Loan EMI Calculator</Link></li>
                   </ul>
                 </div>
               </div>
@@ -601,41 +600,16 @@ const personalLoan = () => {
                 <h3 className="widgettitle">&nbsp;Personal Loan Providers</h3>
                 <div className="textwidget">
                   <ul>
-                    <li><a href="https://www.paisabazaar.com/hdfc-bank/personal-loan/">HDFC Personal Loan</a></li>
-                    <li><a href="https://www.paisabazaar.com/sbi-bank/personal-loan/">SBI Personal Loan</a></li>
-                    <li><a href="https://www.paisabazaar.com/axis-bank/personal-loan/">Axis Bank Personal Loan</a></li>
-                    <li><a href="https://www.paisabazaar.com/icici-bank/personal-loan">ICICI Personal Loan</a></li>
-                    <li><a href="https://www.paisabazaar.com/bajaj-finserv/personal-loan/">Bajaj Finserv Personal Loan</a></li>
-                    <li><a href="https://www.paisabazaar.com/citibank/personal-loan/">Citibank Personal Loan</a></li>
-                    <li><a href="https://www.paisabazaar.com/tata-capital/personal-loan/">Tata Capital Personal Loan</a></li>
-                    <li><a href="https://www.paisabazaar.com/yes-bank/personal-loan/">Yes Bank Personal Loan</a></li>
-                    <li><a href="https://www.paisabazaar.com/personal-loan/home-credit/">Home Credit Personal Loan</a></li>
-                    <li><a href="https://www.paisabazaar.com/canara-bank/personal-loan/">Canara Bank Personal Loan</a></li>
-                    <li><a href="https://www.paisabazaar.com/kotak-mahindra-bank/personal-loan/">Kotak Mahindra Bank Personal Loan</a></li>
-                    <li><a href="https://www.paisabazaar.com/indusind-bank/personal-loan/">Indusind Bank Personal Loan</a></li>
-                    <li><a href="https://www.paisabazaar.com/punjab-national-bank/personal-loan/">PNB Personal Loan</a></li>
-                    <li><a href="https://www.paisabazaar.com/bank-of-baroda/personal-loan/">Bank Of Baroda Personal Loan</a></li>
-                    <li><a href="https://www.paisabazaar.com/idbi-bank/personal-loan/">IDBI Personal Loan</a></li>
-                    <li><a href="https://www.paisabazaar.com/indiabulls/personal-loan/">Dhani Personal Loan</a></li>
-                    <li><a href="https://www.paisabazaar.com/indian-bank/personal-loan/">Indian Bank Personal Loan</a></li>
-                    <li><a href="https://www.paisabazaar.com/federal-bank/personal-loan/">Federal Bank Personal Loan</a></li>
-                    <li><a href="https://www.paisabazaar.com/standard-chartered-bank/personal-loan/">Standard Chartered Personal Loan</a></li>
-                    <li><a href="https://www.paisabazaar.com/fullerton-india/personal-loan/">Fullerton India Personal Loan</a></li>
-                    <li><a href="https://www.paisabazaar.com/bank-of-india/personal-loan/">Bank Of India Personal Loan</a></li>
-                    <li><a href="https://www.paisabazaar.com/muthoot-finance/personal-loan/">Muthoot Finance Personal Loan</a></li>
-                    <li><a href="https://www.paisabazaar.com/rbl-bank/personal-loan/">RBL Bank Personal Loan</a></li>
-                    <li><a href="https://www.paisabazaar.com/hsbc-bank/personal-loan/">HSBC Personal Loan</a></li>
-                    <li><a href="https://www.paisabazaar.com/uco-bank/personal-loan/">UCO Bank Personal Loan</a></li>
-                    <li><a href="https://www.paisabazaar.com/union-bank-of-india/personal-loan/">Union Bank Of India Personal Loan</a></li>
-                    <li><a href="https://www.paisabazaar.com/central-bank-of-india/personal-loan/">Central Bank Of India Personal Loan</a></li>
-                    <li><a href="https://www.paisabazaar.com/bank-of-maharashtra/personal-loan/">Bank of Maharashtra Personal Loan</a></li>
-                    <li><a href="https://www.paisabazaar.com/personal-loan/cashe/">Cashe Personal Loan</a></li>
-                    <li><a href="https://www.paisabazaar.com/personal-loan/moneytap/">Moneytap Personal Loan</a></li>
-                    <li><a href="https://www.paisabazaar.com/idfc-bank/personal-loan/">IDFC First Bank Personal Loan</a></li>
-                    <li><a href="https://www.paisabazaar.com/personal-loan/kreditbee/">Kreditbee Personal Loan</a></li>
-                    <li><a href="https://www.paisabazaar.com/personal-loan/money-view/">Moneyview Personal Loan</a></li>
-                    <li><a href="https://www.paisabazaar.com/personal-loan/earlysalary/">Early Salary Personal Loan</a></li>
-                    <li><a href="https://www.paisabazaar.com/aditya-birla/personal-loan/">Aditya Birla Personal Loan</a></li>
+                    <li><Link href="#">HDFC Personal Loan</Link></li>
+                    <li><Link href="#">Axis Bank Personal Loan</Link></li>
+                    <li><Link href="#">ICICI Personal Loan</Link></li>
+                    <li><Link href="#">Bajaj Finserv Personal Loan</Link></li>
+                    <li><Link href="#">Tata Capital Personal Loan</Link></li>
+                    <li><Link href="#">Indusind Bank Personal Loan</Link></li>
+                    <li><Link href="#">Standard Chartered Personal Loan</Link></li>
+                    <li><Link href="#">Fullerton India Personal Loan</Link></li>
+                    <li><Link href="#">IDFC First Bank Personal Loan</Link></li>
+                    <li><Link href="#">Aditya Birla Personal Loan</Link></li>
                   </ul>
                 </div>
               </div>
@@ -644,18 +618,18 @@ const personalLoan = () => {
                 <h3 className="widgettitle">&nbsp;Personal Loan Types</h3>
                 <div className="textwidget">
                   <ul>
-                    <li><a href="https://www.paisabazaar.com/personal-loan/agriculture-loan/">Agriculture Loan</a></li>
-                    <li><a href="https://www.paisabazaar.com/personal-loan/consumer-loan/">Consumer Loan</a></li>
-                    <li><a href="https://www.paisabazaar.com/personal-loan/flexi-loan/">Flexi Loan</a></li>
-                    <li><a href="https://www.paisabazaar.com/personal-loan/marriage-loans/">Marriage Loans</a></li>
-                    <li><a href="https://www.paisabazaar.com/personal-loan/nri-personal-loan/">NRI Personal Loan</a></li>
-                    <li><a href="https://www.paisabazaar.com/personal-loan/personal-loan-balance-transfer/">Personal Loan Balance Transfer</a></li>
-                    <li><a href="https://www.paisabazaar.com/personal-loan/personal-loan-for-salaried-employees/">Personal Loan For Salaried Employees</a></li>
-                    <li><a href="https://www.paisabazaar.com/personal-loan/secured-loans/">Secured Loans</a></li>
-                    <li><a href="https://www.paisabazaar.com/personal-loan/short-term-loans/">Short Term Loans</a></li>
-                    <li><a href="https://www.paisabazaar.com/personal-loan/term-loan/">Term Loan</a></li>
-                    <li><a href="https://www.paisabazaar.com/personal-loan/top-up-loan/">Top Up Loan</a></li>
-                    <li><a href="https://www.paisabazaar.com/personal-loan/loan-against-lic-policy/">Loan Against LIC Policy</a></li>
+                    <li><Link href="#">Agriculture Loan</Link></li>
+                    <li><Link href="#">Consumer Loan</Link></li>
+                    <li><Link href="#">Flexi Loan</Link></li>
+                    <li><Link href="#">Marriage Loans</Link></li>
+                    <li><Link href="#">NRI Personal Loan</Link></li>
+                    <li><Link href="#">Personal Loan Balance Transfer</Link></li>
+                    <li><Link href="#">Personal Loan For Salaried Employees</Link></li>
+                    <li><Link href="#">Secured Loans</Link></li>
+                    <li><Link href="#">Short Term Loans</Link></li>
+                    <li><Link href="#">Term Loan</Link></li>
+                    <li><Link href="#">Top Up Loan</Link></li>
+                    <li><Link href="#">Loan Against LIC Policy</Link></li>
                   </ul>
                 </div>
               </div>
