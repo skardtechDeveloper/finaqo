@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Image from 'next/image';
 import Head from 'next/head';
+import Link from 'next/link';
 import Button from 'react-bootstrap/Button';
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
@@ -94,7 +95,7 @@ const Contact = () => {
                   <div>
                     <span className="top-line"></span>
                     <h3>Email:<br/>
-                      <a href="mailto:info@finaqo.in">info@finaqo.in</a>
+                      <Link href="mailto:info@finaqo.in">info@finaqo.in</Link>
                     </h3>
                     <p>For queries related to loans, credit cards or in case of any general enquiries</p>
                   </div>
@@ -106,7 +107,7 @@ const Contact = () => {
                   <div>
                     <span className="top-line"></span>
                     <h3>Toll Free:<br/>
-                      <a href="tel:01204459361">0120 445 9361</a>
+                      <Link href="tel:01204459361">0120 445 9361</Link>
                     </h3>
                     <p>Our customer service experts are here for you. Lines are open Mon-Sat from 9:30 am – 6:30 pm</p>
                   </div>
@@ -118,7 +119,7 @@ const Contact = () => {
                   <div>
                     <span className="top-line"></span>
                     <h3>Our Time<br/>
-                      <a href="/#">24*7 ALL DAY'S</a>
+                      <Link href="/#">24*7 ALL DAY'S</Link>
                     </h3>
                     <p>You can even reach out to us anytime. Our service expert team will help you with your queries</p>
                   </div>

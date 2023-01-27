@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link';
 import Sidebar from '@/src/components/sidebar';
 import Accordion from 'react-bootstrap/Accordion';
 
@@ -140,7 +141,7 @@ const privacyPolicy = () => {
                                                                 in our mutual fund product through our Mobile App, then you agree to the
                                                                 following disclosure:</p>
                                                             <p>“Paisabazaar&apos;s use and transfer to any other app of information received from Google APIs will
-                                                                adhere to <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" rel="noreferrer">Google API Services User Data Policy</a>, including the
+                                                                adhere to <Link href="/#" target="_blank" rel="noreferrer">Google API Services User Data Policy</Link>, including the
                                                                 Limited Use requirements. Paisabazaar app helps in tracking the
                                                                 performance of mutual fund investments, that may have been done via multiple
                                                                 channels/platforms over time, which can be otherwise cumbersome for
