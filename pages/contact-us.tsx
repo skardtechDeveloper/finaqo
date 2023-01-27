@@ -118,7 +118,7 @@ const Contact = () => {
                   <div>
                     <span className="top-line"></span>
                     <h3>Our Time<br/>
-                      <a href="#">24*7 ALL DAY'S</a>
+                      <a href="/#">24*7 ALL DAY'S</a>
                     </h3>
                     <p>You can even reach out to us anytime. Our service expert team will help you with your queries</p>
                   </div>

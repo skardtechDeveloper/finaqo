@@ -62,7 +62,7 @@ const Header = () => {
                                     <Link href="/" passHref>Home</Link>
                                 </li>
                                 <li className={isHovering ? "dropdown-link active" : "dropdown-link"} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
-                                    <Link href="#" passHref>All Products</Link>
+                                    <Link href="/#" passHref>All Products</Link>
 
                                     <div className="mega-dropdown-menu mobile" style={hoverStyle} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
                                         <div className="container">
@@ -126,7 +126,7 @@ const Header = () => {
                                     </div>
                                 </li>
                                 <li>
-                                    <Link href="/contact-us" passHref>Financial Tools</Link>
+                                    <Link href="/#" passHref>Financial Tools</Link>
                                 </li>
                                 <li>
                                     <Link href="/about-us" passHref>About Us</Link>
@@ -138,7 +138,7 @@ const Header = () => {
                                     <Link href="/our-team" passHref>Our Team</Link>
                                 </li>
                                 <li>
-                                    <Link href="/become-our-patner" passHref>Become Our Patner</Link>
+                                    <Link href="/#" passHref>Become Our Patner</Link>
                                 </li>
                             </ul>
                         </nav>
